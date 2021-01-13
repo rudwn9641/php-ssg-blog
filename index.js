@@ -101,6 +101,7 @@ EditorViewer__init();
 
 /* 커서 효과 */
 const $cursor = $('.cursor');
+alert($cursor.length);
 const $cursorSahdow = $('.cursor-shadow');
 
 $(window).mousemove(function (e) {
