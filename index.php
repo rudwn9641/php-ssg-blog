@@ -41,100 +41,7 @@
 </head>
 
 <body>
-  <div class="body-content">
-  <!-- 탑바 시작 -->
-  <header class="top-bar con-min-width visible-md-up">
-    <div class="con height-100p flex flex-jc-sb flex-ai-c">
-      <a href="#" class="logo">
-        <span>🧀</span>
-        <span>CHEESE</span>
-      </a>
-      <nav class="top-bar__menu-box-1 height-100p">
-        <ul class="flex height-100p">
-          <li>
-            <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
-              <span><i class="fas fa-home"></i></span>
-              <span>HOME</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
-              <span><i class="far fa-address-card"></i></span>
-              <span>ABOUT</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
-              <span><i class="fas fa-list-alt"></i></span>
-              <span>PORTFOLIO</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
-              <span><i class="fas fa-newspaper"></i></span>
-              <span>ARTICLES</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!-- 탑바 끝 -->
-
-  <!-- 모바일 탑바 시작 -->
-  <header class="mobile-top-bar con-min-width visible-sm-down flex">
-    <div class="flex-1-0-0 flex">
-      <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
-    <div>
-      <a href="#" class="logo height-100p">
-        <span>🧀</span>
-        <span>CHEESE</span>
-      </a>
-    </div>
-    <div class="flex-1-0-0"></div>
-  </header>
-  <!-- 모바일 탑바 끝 -->
-
-  <!-- 모바일 사이드 바 시작 -->
-  <aside class="mobile-side-bar visible-sm-down">
-
-    <nav class="mobile-side-bar__menu-box-1">
-      <ul>
-        <li>
-          <a href="#" class="block">
-            <span><i class="fas fa-home"></i></span>
-            <span>HOME</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="block">
-            <span><i class="far fa-address-card"></i></span>
-            <span>ABOUT</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="block">
-            <span><i class="fas fa-list-alt"></i></span>
-            <span>PORTFOLIO</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="block">
-            <span><i class="fas fa-newspaper"></i></span>
-            <span>ARTICLES</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </aside>
-  <!-- 모바일 탑바 끝 -->
-
-  <main>
+<main>
     <section class="section-latest-articles con-min-width">
       <div class="con">
         <div class="article-list-box">
@@ -243,25 +150,6 @@ https://codepen.io/rudwn9641/embed/gOwBbvV?height=265&theme-id=light&default-tab
         </div>
       </div>
     </section>
-
-  </main>
-
-  <!-- 하단바 시작 -->
-  <footer class="bottom-bar con-min-width">
-    <div class="con flex flex-jc-c">
-      <a href="#" class="logo">
-        <span>🧀</span>
-        <span>CHEESE</span>
-      </a>
-    </div>
-  </footer>
-  <!-- 하단바 끝 -->
-  </div>
-
-  <!-- 커서 효과 -->
-    <div class="cursor"></div>
-    <div class="cursor-shadow"></div>
-  </div>
 </body>
 
 </html>
