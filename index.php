@@ -7,9 +7,17 @@ require_once "head.php";
         <div class="article-list-box">
           <ul>
             <li>
-              <h1>2화, grow & shrink</h1>
-              <div>2020-01-12 12:12:14</div>
-              <div>
+              <h1 class="article-list-box__title">2화, grow & shrink</h1>
+              <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+              <div class="article-list-box__writer">
+              <span>임경주</span>
+                  <span>
+                    <svg viewBox="0 0 264 280">
+                      <use xlink:href="#avatar-1"></use>
+                    </svg>
+                  </span>
+                </div>
+              <div class="article-list-box__body">
                 <script type="text/x-template">
 # 개요
 - 아이템은 컨테이너의 크기에 따라서 작아지기도 하고 커지기도 한다.
