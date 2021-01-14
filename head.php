@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="index.css">
     <script src="index.js" defer></script>
 </head>
+
 <body>
 <div class="body-content">
   <!-- 탑바 시작 -->
@@ -124,5 +125,4 @@
   </aside>
   <!-- 모바일 탑바 끝 -->
 
-</body>
-</html>
+  <main>
