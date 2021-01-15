@@ -4,6 +4,7 @@ require_once "head.php";
 ?>
 <link rel="stylesheet" href="css/index.css">
 <script src="js/index.js" defer></script>
+
 <section class="section-title con-min-width">
   <h1 class="con">
     <span>
@@ -14,6 +15,7 @@ require_once "head.php";
     </span>
   </h1>
 </section>
+
 <section class="section-latest-articles con-min-width">
   <div class="con">
     <div class="article-list-box">
@@ -39,6 +41,7 @@ require_once "head.php";
             <span><?=$article1["writerName"]?></span>
             <span><?=$article1["writerAvatar"]?></span>
           </div>
+
           <div class="article-list-box__body">
             <script type="text/x-template"><?=$article1["body"]?></script>
             <div class="toast-ui-viewer"></div>
@@ -48,6 +51,7 @@ require_once "head.php";
     </div>
   </div>
 </section>
+
 <?php
 require_once "foot.php";
 ?>
