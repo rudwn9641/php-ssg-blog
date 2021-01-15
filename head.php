@@ -37,8 +37,7 @@
   <header class="top-bar con-min-width visible-md-up">
     <div class="con height-100p flex flex-jc-sb flex-ai-c">
       <a href="#" class="logo">
-        <span>🧀</span>
-        <span>CHEESE</span>
+      <span>ʕ•ᴥ•ʔ Gummy Bear</span>
       </a>
       <nav class="top-bar__menu-box-1 height-100p">
         <ul class="flex height-100p">
@@ -83,8 +82,7 @@
     </div>
     <div>
       <a href="#" class="logo height-100p">
-        <span>🧀</span>
-        <span>CHEESE</span>
+      <span>ʕ•ᴥ•ʔ Gummy Bear</span>
       </a>
     </div>
     <div class="flex-1-0-0"></div>
