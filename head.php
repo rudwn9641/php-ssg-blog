@@ -36,7 +36,7 @@
   <!-- 탑바 시작 -->
   <header class="top-bar con-min-width visible-md-up">
     <div class="con height-100p flex flex-jc-sb flex-ai-c">
-      <a href="#" class="logo">
+      <a href="index.ssghtml.php" class="logo">
       <span>ʕ•ᴥ•ʔ Gummy Bear</span>
       </a>
       <nav class="top-bar__menu-box-1 height-100p">
