@@ -14,6 +14,7 @@ EOT;
 
 // 게시물 2
 $article2 = [];
+$article2["id"] = 2;
 $article2["title"] = "2화, grow & shrink";
 $article2["regDate"] = "2020-01-12 12:12:14";
 $article2["writerName"] = "임경주";
@@ -74,6 +75,7 @@ EOT;
 
 // 게시물 1
 $article1 = [];
+$article1["id"] = 1;
 $article1["title"] = "1화, flex 오리엔테이션";
 $article1["regDate"] = "2020-01-12 12:12:14";
 $article1["writerName"] = "임경주";

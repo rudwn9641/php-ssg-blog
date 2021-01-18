@@ -404,6 +404,17 @@ html.mobile-side-bar-actived>body {
   padding: 20px;
   border-radius: 20px;
   margin-top: 20px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.article-list-box__title > a {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+.article-list-box__title > a:hover {
+  color:red;
 }
 
 .toast-ui-youtube-plugin-wrap {
@@ -539,9 +550,8 @@ html.mobile-side-bar-actived>body {
 
 /* 게시물 댓글 박스 시작 */
 .section-article-reply-box {
-  margin-top: 20px;
+  margin-top:20px;
 }
-
 /* 게시물 댓글 박스 끝 */
 
 
