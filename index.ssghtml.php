@@ -20,20 +20,20 @@ require_once "head.php";
   <div class="con">
     <div class="article-list-box">
       <ul>
-      <?php for ( $i = 4; $i >= 1; $i-- ) { ?>
+        <?php for ( $i = 3; $i >= 1; $i-- ) { ?>
         <?php
         $articleVarName = "article" . $i;
         $article = $$articleVarName;
         ?>
         <li>
-        <h1 class="article-list-box__title"><a href="article_detail_<?=$article["id"]?>.ssghtml.php"><?=$article["title"]?></a></h1>
+          <h1 class="article-list-box__title"><a href="article_detail_<?=$article["id"]?>.ssghtml.php"><?=$article["title"]?></a></h1>
           <div class="article-list-box__reg-date"><?=$article["regDate"]?></div>
           <div class="article-list-box__writer">
-          <span><?=$article["writerName"]?></span>
+            <span><?=$article["writerName"]?></span>
             <span><?=$article["writerAvatar"]?></span>
           </div>
           <div class="article-list-box__body">
-          <script type="text/x-template"><?=$article['body']?></script>
+            <script type="text/x-template"><?=$article['body']?></script>
             <div class="toast-ui-viewer"></div>
           </div>
         </li>
