@@ -25,10 +25,11 @@
     <!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
     <script src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js" defer></script>
     <!-- 토스트 UI 끝 -->
-    <link rel="stylesheet" href="common.css">
-    <script src="common.js" defer></script>
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/common.js" defer></script>
+    <!-- 구글 폰트 -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -48,7 +49,7 @@
             </a>
           </li>
           <li>
-            <a href="about.php" class="flex flex-jc-c flex-ai-c height-100p">
+            <a href="about.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
               <span><i class="far fa-address-card"></i></span>
               <span>ABOUT</span>
             </a>

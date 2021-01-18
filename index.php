@@ -1,7 +1,8 @@
 <?php
 require_once "head.php";
 ?>
-
+<link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
     <section class="section-latest-articles con-min-width">
       <div class="con">
         <div class="article-list-box">
