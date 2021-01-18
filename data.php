@@ -3,6 +3,7 @@ $siteTitle = "디자이너 임경주";
 
 // 게시물 3
 $article3 = [];
+$article3["id"] = 3;
 $article3["title"] = "자바스크립트 태그 3";
 $article3["regDate"] = "2020-01-12 12:12:15";
 $article3["writerName"] = "홍길동";

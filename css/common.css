@@ -457,6 +457,7 @@ html.mobile-side-bar-actived>body {
   pointer-events: none;
   transform: translateX(-50%) translateY(-50%);
   mix-blend-mode: difference;
+  z-index: 100;
 }
 
 .cursor-shadow {
@@ -469,6 +470,7 @@ html.mobile-side-bar-actived>body {
   transform: translateX(-50%) translateY(-50%);
   transition: top 0.3s, left 0.3s;
   mix-blend-mode: difference;
+  z-index: 90;
 }
 
 /* 커서 끝 */
