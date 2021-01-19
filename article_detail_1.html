@@ -143,32 +143,33 @@
     <div class="cursor"></div>
     <div class="cursor-shadow"></div>
 
-    <main><link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
+    <main>
+      <link rel="stylesheet" href="css/about.css">
+      <script src="js/about.js" defer></script>
 
-<section class="section-title con-min-width">
-    <h1 class="con">
-        <span>
+      <section class="section-title con-min-width">
+        <h1 class="con">
+          <span>
             <i class="fas fa-newspaper"></i>
-        </span>
-        <span>
+          </span>
+          <span>
             DETAIL
-        </span>
-    </h1>
-</section>
+          </span>
+        </h1>
+      </section>
 
-<section class="section-article-detail padding-0-10 con-min-width">
-    <div class="con">
-        <h1 class="article-list-box__title"><a href="article_detail_2.html">1화, flex 오리엔테이션</a></h1>
+      <section class="section-article-detail padding-0-10 con-min-width">
+        <div class="con">
+          <h1 class="article-list-box__title"><a href="article_detail_2.html">1화, flex 오리엔테이션</a></h1>
 
-        <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
-        
-        <div class="article-list-box__writer">
+          <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+
+          <div class="article-list-box__writer">
             <span class="flex flex-jc-c flex-ai-c">ʕ•ᴥ•ʔ</span>
-                  <span>임경주</span>
-        </div>
-        
-        <div class="article-list-box__body">
+            <span>임경주</span>
+          </div>
+
+          <div class="article-list-box__body">
             <script type="text/x-template"># 개요
 - CSS의 flex는 엘리먼트들의 크기나 위치를 쉽게 잡아주는 도구다.
 - flex를 사용하기 위해서는 컨테이너 태그에 display:flex 속성을 부여해야 한다.
@@ -205,37 +206,39 @@
 </html>
 ```</script>
             <div class="toast-ui-viewer"></div>
+          </div>
         </div>
-    </div>
-</section>
+      </section>
 
-<section class="section-article-reply-box padding-0-10 con-min-width">
-    <div class="con">
-    <div id="disqus_thread"></div>
-    
-    <script>
-        var disqus_config = function () {
-            this.page.url = 'https://b.oa.gg/article_detail_1.html';
-            this.page.identifier = 'article_detail_1.html';
-        };
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://phpblog-2.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    </div>
-</section></main>
+      <section class="section-article-reply-box padding-0-10 con-min-width">
+        <div class="con">
+          <div id="disqus_thread"></div>
 
-<!-- 하단바 시작 -->
-<footer class="bottom-bar con-min-width">
-  <div class="con flex flex-jc-c">
-    <a href="#" class="logo">
-      <span>ʕ•ᴥ•ʔ Gummy Bear</span>
-    </a>
+          <script>
+            var disqus_config = function () {
+              this.page.url = 'https://b.oa.gg/article_detail_1.html';
+              this.page.identifier = 'article_detail_1.html';
+            };
+            (function () { // DON'T EDIT BELOW THIS LINE
+              var d = document,
+                s = d.createElement('script');
+              s.src = 'https://phpblog-2.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+            })();
+          </script>
+        </div>
+      </section>
+    </main>
+
+    <!-- 하단바 시작 -->
+    <footer class="bottom-bar con-min-width">
+      <div class="con flex flex-jc-c">
+        <a href="#" class="logo">
+          <span>ʕ•ᴥ•ʔ Gummy Bear</span>
+        </a>
+      </div>
+    </footer>
+    <!-- 하단바 끝 -->
+
   </div>
-</footer>
-<!-- 하단바 끝 -->
-
-</div>
