@@ -160,7 +160,7 @@
 
       <section class="section-article-detail padding-0-10 con-min-width">
         <div class="con">
-          <h1 class="article-list-box__title"><a href="article_detail_2.html">3화, 자바스크립트 태그 3</a></h1>
+          <h1 class="article-list-box__title"><a href="article_detail_2.html">3화, justify-content</a></h1>
 
           <div class="article-list-box__reg-date">2020-01-12 12:12:15</div>
 
@@ -171,7 +171,46 @@
 
           <div class="article-list-box__body">
             <script type="text/x-template"># 개요
-- php도 좋다.</script>
+- 콘텐츠를 수평(행) 정렬하는 속성이다.
+- 콘텐츠(item)의 가로 넓이가 컨테이너보다 작아야 한다.
+- flex-start: 요소들을 컨테이너의 왼쪽으로 정렬합니다.
+- flex-end: 요소들을 컨테이너의 오른쪽으로 정렬합니다.
+- center: 요소들을 컨테이너의 가운데로 정렬합니다.
+- space-between: 요소들 사이에 동일한 간격을 둡니다.
+- space-around: 요소들 주위에 동일한 간격을 둡니다.
+
+# 예시
+```html
+<!doctype>
+<html>
+    <head>
+        <style>
+            .flex-container {
+                display: flex;
+                justify-content: space-between; /* 진행방향 가로!! flex-start, center, flex-end, space-around, space-evenly, space-between */
+            }
+
+            .item {
+                border: 5px solid black;
+                width: 200px;
+                height: 100px;
+
+                display: flex;
+                justify-content: flex-end; /* 진행 방향(main axis)의 정렬 */
+                align-items: flex-end; /* 진행 방향의 반대(세로)(cross axis) 정렬 */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="item">첫번째 박스</div>
+            <div class="item">두번째 박스</div>
+            <div class="item">세번째 박스</div>
+        </div>
+    </body>
+</html>
+```
+</script>
             <div class="toast-ui-viewer"></div>
           </div>
         </div>
