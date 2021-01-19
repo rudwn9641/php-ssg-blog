@@ -4,8 +4,7 @@
 <footer class="bottom-bar con-min-width">
   <div class="con flex flex-jc-c">
     <a href="#" class="logo">
-      <span><i class="far fa-lemon"></i></span>
-      <span>DESIGN LEMON</span>
+      <span>ʕ•ᴥ•ʔ Gummy Bear</span>
     </a>
   </div>
 </footer>
