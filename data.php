@@ -1,5 +1,17 @@
 <?php
-$siteTitle = "디자이너 임경주";
+$siteTitle = "디자이너 홍길동!!!!";
+
+// 게시물 4
+$article4 = [];
+$article4["id"] = 4;
+$article4["title"] = "자바스크립트 태그 4";
+$article4["regDate"] = "2020-01-18 17:28:15";
+$article4["writerName"] = "홍길동";
+$article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article4["body"] = <<<EOT
+# 개요
+- 안녕하세요.
+EOT;
 
 // 게시물 3
 $article3 = [];
@@ -16,111 +28,47 @@ EOT;
 // 게시물 2
 $article2 = [];
 $article2["id"] = 2;
-$article2["title"] = "2화, grow & shrink";
+$article2["title"] = "자바스크립트 태그 2";
 $article2["regDate"] = "2020-01-12 12:12:14";
-$article2["writerName"] = "임경주";
-$article2["writerAvatar"] = "ʕ•ᴥ•ʔ";
+$article2["writerName"] = "홍길동";
+$article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article2["body"] = <<<EOT
 # 개요
-- 아이템은 컨테이너의 크기에 따라서 작아지기도 하고 커지기도 한다.
-- 이 때 작아지고, 커지는 비율을 지정하는 방법이 바로 grow & shrink다.
-
-# 예시
+- script 태그를 사용해야 한다.
+- src 속성으로 외부 스크립트를 불러올 수 있다.
+- defer 속성으로 html 엘리먼트 로딩까지 실행을 유보시킬 수 있다.
+- 자식 컨텐츠로 자바스크립트를 넣어서 사용할 수 있다.
+  
+# 예시 - 자식 컨텐츠로 자바스크립트를 넣어서 사용
 ```html
-<!doctype>
-<html>
-<head>
-    <style>
-        .container{
-            background-color: powderblue;
-            height:200px;
-            display:flex;
-            flex-direction:row;
-        }
-        .item{
-            background-color: tomato;
-            color:white;
-            border:1px solid white;         
-        }
-        .item:nth-child(1){
-            flex-basis: 150px;
-            flex-shrink: 1;
-        }
-        .item:nth-child(2){
-            flex-basis: 150px;
-            flex-shrink: 2;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
-    </div>
-  </body>
-</html>
+<t-script>
+var a = 10;
+</t-script>
+<div class="a"></div>
 ```
-
-# 실습
-```codepen
-https://codepen.io/rudwn9641/embed/gOwBbvV?height=265&theme-id=light&default-tab=js,result
-```
-              </script>
-                <div class="toast-ui-viewer"></div>
-              </div>
-            </li>
 EOT;
 
 // 게시물 1
 $article1 = [];
 $article1["id"] = 1;
-$article1["title"] = "1화, flex 오리엔테이션";
+$article1["title"] = "자바스크립트 태그";
 $article1["regDate"] = "2020-01-12 12:12:14";
-$article1["writerName"] = "임경주";
-$article1["writerAvatar"] = "ʕ•ᴥ•ʔ";
+$article1["writerName"] = "홍길동";
+$article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article1["body"] = <<<EOT
-# 개요
-- CSS의 flex는 엘리먼트들의 크기나 위치를 쉽게 잡아주는 도구다.
-- flex를 사용하기 위해서는 컨테이너 태그에 display:flex 속성을 부여해야 한다.
-- 또한 flex-direction을 이용해서 정렬방향을 바꿀 수 있다. 기본은 row다.
-
-# 예시
-```html
-<!doctype>
-<html>
-<head>
-    <style>
-        .container{
-            background-color: powderblue;
-            height:200px;
-            display:flex;
-            flex-direction:row;
-        }
-        .item{
-            background-color: tomato;
-            color:white;
-            border:1px solid white;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
-    </div>
-</body>
-</html>
+# 태그
+```codepen
+https://codepen.io/jangka44/embed/NWROGrL?height=265&theme-id=light&default-tab=html,result&editable=true
 ```
-</script>
-                <div class="toast-ui-viewer"></div>
-              </div>
-            </li>
+  
+# 콘솔
+```codepen
+https://codepen.io/jangka44/embed/zYKmvoG?height=300&theme-id=light&default-tab=js,result&editable=true
+```
+# 참고영상
+```youtube
+CmgCsCkjNWo
+```
 EOT;
 
 if ( isset($articleId) ) {
