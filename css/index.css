@@ -130,7 +130,7 @@ a {
 /* 커스텀 시작 */
 
 body {
-  background-color: #F9EFEA;
+  background-color: #FFF7E9;
 }
 
 :root {
@@ -166,6 +166,7 @@ body {
   display: flex;
   align-items: center;
   font-size: 1.8rem;
+  color: #CE4033;
 }
 
 .logo>span:last-child {
@@ -180,8 +181,8 @@ body {
 
 /* 탑바 시작 */
 .top-bar {
-  border-bottom: 1px solid #848484;
-  background-color: #F9EFEA;
+  border-bottom: 1px solid #CE4033;
+  background-color: #FFF7E9;
   ;
   color: black;
   height: 100px;
@@ -189,17 +190,19 @@ body {
 
 .top-bar .logo {
   margin-left: 10px;
+  color:#CE4033;
 }
 
 .top-bar__menu-box-1>ul>li>a {
   font-weight: bold;
   padding-left: 20px;
   padding-right: 20px;
+  color:#CE4033;
 }
 
 .top-bar__menu-box-1>ul>li:hover>a {
-  background-color: white;
-  color: black;
+  background-color: #D0EAEF;
+  color:#CE4033;
   text-decoration: underline;
 }
 
@@ -219,8 +222,8 @@ body {
 }
 
 .mobile-top-bar {
-  border-bottom: 1px solid #848484;
-  background-color: #F9EFEA;
+  border-bottom: 1px solid #CE4033;
+  background-color: #FFF7E9;
   height: var(--mobile-top-bar__height);
   position: fixed;
   top: 0;
@@ -284,8 +287,8 @@ body {
   width: 100%;
   bottom: 0;
   color: black;
-  background-color: #F9EFEA;
-  border-top: 1px solid #848484;
+  background-color: #FFF7E9;
+  border-top: 1px solid #CE4033;
   transition: left .3s;
   display: flex;
   align-items: center;
@@ -338,7 +341,7 @@ body {
 
 .article-list-box>ul>li {
   background-color: white;
-  border: 1px solid #848484;
+  border: 1px solid #CE4033;
   padding: 20px;
   border-radius: 20px;
   margin-top: 20px;
@@ -349,10 +352,11 @@ body {
 .article-list-box__title>a {
   font-size: 1.8rem;
   text-decoration: underline;
+  color: #F1CC64;
 }
 
 .article-list-box__title>a:hover {
-  color: red;
+  color: #CE4033;
 }
 
 .article-list-box__reg-date::before {
