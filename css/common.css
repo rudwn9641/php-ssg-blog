@@ -320,9 +320,9 @@ body {
 /* 하단바 시작 */
 .bottom-bar {
   margin-top: 30px;
-  background-color: #F9EFEA;
+  background-color: #FFF7E9;
   ;
-  color: black;
+  color: #CE4033;
 }
 
 .bottom-bar>.con {
