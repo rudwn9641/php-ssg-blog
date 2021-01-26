@@ -14,7 +14,7 @@
 
 <section class="section-article-detail padding-0-10 con-min-width">
     <div class="con">
-        <h1 class="article-list-box__title"><a href="article_detail_2.ssghtml.php"><?=$selectedArticle["title"]?></a></h1>
+        <h1 class="article-list-box__title"><?=$selectedArticle["title"]?></h1>
 
         <div class="article-list-box__reg-date"><?=$selectedArticle["regDate"]?></div>
         
@@ -27,6 +27,11 @@
             <script type="text/x-template"><?=$selectedArticle['body']?></script>
             <div class="toast-ui-viewer"></div>
         </div>
+
+            <div class="article-list-box__tags">
+                <?=getArticleLink($article["id"])?>">
+            </div>
+
     </div>
 </section>
 
