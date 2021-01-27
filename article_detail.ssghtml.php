@@ -1,5 +1,14 @@
-<link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
+<?php
+if ( defined('STDIN') ) {
+    $_GET['id'] = $argv[1];
+}
+
+require_once "data.php";
+require_once "head.php";
+
+$articleId = $_GET['id'];
+$selectedArticle = &getArticleById($articleId);
+?>
 
 <section class="section-title con-min-width">
     <h1 class="con">
@@ -22,16 +31,15 @@
             <span><?=$selectedArticle["writerName"]?></span>
             <span><?=$selectedArticle["writerAvatar"]?></span>
         </div>
+
+        <div class="article-list-box__tags">
+            <?=getArticleTagsHtml($selectedArticle["id"])?>
+        </div>
         
         <div class="article-list-box__body">
             <script type="text/x-template"><?=$selectedArticle['body']?></script>
             <div class="toast-ui-viewer"></div>
         </div>
-
-            <div class="article-list-box__tags">
-                <?=getArticleLink($article["id"])?>">
-            </div>
-
     </div>
 </section>
 
@@ -53,3 +61,7 @@
     </script>
     </div>
 </section>
+
+<?php
+require_once "foot.php";
+?>

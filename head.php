@@ -2,9 +2,9 @@
 <html lang="ko">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?=$siteTitle?></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?=$pageTitle?></title>
 
   <!-- 반응형 필수 -->
   <meta name="viewport" content="width=device-width, user-scalable=no" />
