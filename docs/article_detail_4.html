@@ -1,20 +1,3 @@
-<?php
-if ( !isset($pageTitle) ) {
-  $pageTitle = $siteTitle;
-}
-
-if ( !isset($pageDescription) ) {
-  $pageDescription = $siteDescription;
-}
-
-if ( !isset($pageKeywordsStr) ) {
-  $pageKeywordsStr = $siteKeywordsStr;
-}
-
-if ( !isset($pageThumbUrl) ) {
-  $pageThumbUrl = $siteThumbUrl;
-}
-?>
 
 <!DOCTYPE html>
 <html lang="ko">
@@ -36,7 +19,7 @@ if ( !isset($pageThumbUrl) ) {
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?=$pageTitle?></title>
+  <title>4화, align-items</title>
 
   <!-- 반응형 필수 -->
   <meta name="viewport" content="width=device-width, user-scalable=no" />
@@ -81,25 +64,25 @@ if ( !isset($pageThumbUrl) ) {
     <!-- 탑바 시작 -->
     <header class="top-bar con-min-width visible-md-up">
       <div class="con height-100p flex flex-jc-sb">
-        <a href="index.ssghtml.php" class="logo">
+        <a href="index.html" class="logo">
           <span>ʕ•ᴥ•ʔ Gummy Bear</span>
         </a>
         <nav class="top-bar__menu-box-1 height-100p">
           <ul class="flex height-100p">
             <li>
-              <a href="index.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
+              <a href="index.html" class="flex flex-jc-c flex-ai-c height-100p">
                 <span><i class="fas fa-home"></i></span>
                 <span>HOME</span>
               </a>
             </li>
             <li>
-              <a href="about.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
+              <a href="about.html" class="flex flex-jc-c flex-ai-c height-100p">
                 <span><i class="far fa-address-card"></i></span>
                 <span>ABOUT</span>
               </a>
             </li>
             <li>
-              <a href="pf.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
+              <a href="pf.html" class="flex flex-jc-c flex-ai-c height-100p">
                 <span><i class="fas fa-list-alt"></i></span>
                 <span>PORTFOLIO</span>
               </a>
@@ -176,3 +159,80 @@ if ( !isset($pageThumbUrl) ) {
     <div class="cursor-shadow"></div>
 
     <main>
+<section class="section-title con-min-width">
+    <h1 class="con">
+        <span>
+            <i class="fas fa-newspaper"></i>
+        </span>
+        <span>
+            DETAIL
+        </span>
+    </h1>
+</section>
+
+<section class="section-article-detail padding-0-10 con-min-width">
+    <div class="con">
+        <h1 class="article-list-box__title">4화, align-items</h1>
+
+        <div class="article-list-box__reg-date">2020-01-18 17:28:15</div>
+        
+        <div class="article-list-box__writer">
+            <span>ʕ•ᴥ•ʔ</span>
+            <span>임경주</span>
+        </div>
+
+        <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_flex.html">#flex</a>        </div>
+        
+        <div class="article-list-box__body">
+            <script type="text/x-template">- flex-start: 요소들을 컨테이너의 꼭대기로 정렬합니다.
+- flex-end: 요소들을 컨테이너의 바닥으로 정렬합니다.
+- center: 요소들을 컨테이너의 세로선 상의 가운데로 정렬합니다.
+- baseline: 요소들을 컨테이너의 시작 위치에 정렬합니다.
+- stretch: 요소들을 컨테이너에 맞도록 늘립니다..
+
+# 실습
+```codepen
+https://codepen.io/rudwn9641/embed/jOMdgxd?height=265&theme-id=light&default-tab=css,result
+```</script>
+            <div class="toast-ui-viewer"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-article-reply-box padding-0-10 con-min-width">
+    <div class="con">
+    <div id="disqus_thread"></div>
+    
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'https://b.oa.gg/article_detail_4.html';
+            this.page.identifier = 'article_detail_4.html';
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://phpblog-2.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    </div>
+</section>
+
+</main>
+
+<!-- 하단바 시작 -->
+<footer class="bottom-bar con-min-width">
+  <div class="con flex flex-jc-c">
+    <a href="#" class="logo">
+      <span>ʕ•ᴥ•ʔ Gummy Bear</span>
+    </a>
+  </div>
+</footer>
+<!-- 하단바 끝 -->
+
+</div>
+
+</body>
+
+</html>

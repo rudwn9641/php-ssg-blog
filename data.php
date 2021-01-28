@@ -3,6 +3,20 @@ require_once "util.php";
 require_once "app.php";
 
 $siteTitle = "디자이너 구미베어";
+$siteDescription = "디자이너 구미베어 기술 블로그 입니다.";
+$siteKeywordsStr = "CSS, HTML, JS";
+$siteName = "ʕ•ᴥ•ʔ 구미베어";
+$siteThumbUrl = "https://b.gummybear.kr/img/logo/logo_blog-main.png";
+
+// 태그정보 시작
+$tagInfos = [
+    "flex" => [
+        "pageThumbUrl" => "https://b.gummybear.kr/img/logo/logo_blog-flex.png",
+        //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
+    ],
+];
+// 태그정보 끝
+
 
 // 게시물 4
 $article4 = [];
@@ -11,7 +25,7 @@ $article4["title"] = "4화, align-items";
 $article4["regDate"] = "2020-01-18 17:28:15";
 $article4["writerName"] = "ʕ•ᴥ•ʔ";
 $article4["writerAvatar"] = "임경주";
-$article4["tags"] = ["flex", "align-items"];
+$article4["tags"] = ["flex"];
 $article4["body"] = <<<'EOT'
 - flex-start: 요소들을 컨테이너의 꼭대기로 정렬합니다.
 - flex-end: 요소들을 컨테이너의 바닥으로 정렬합니다.
@@ -32,7 +46,7 @@ $article3["title"] = "3화, justifiy-content";
 $article3["regDate"] = "2020-01-12 12:12:15";
 $article3["writerName"] = "ʕ•ᴥ•ʔ";
 $article3["writerAvatar"] = "임경주";
-$article3["tags"] = ["flex", "justifiy-content"];
+$article3["tags"] = ["flex"];
 $article3["body"] = <<<'EOT'
 # 개요
 - 콘텐츠를 수평(행) 정렬하는 속성이다.
@@ -83,7 +97,7 @@ $article2["title"] = "2화, grow & shrink";
 $article2["regDate"] = "2020-01-12 12:12:14";
 $article2["writerName"] = "ʕ•ᴥ•ʔ";
 $article2["writerAvatar"] = "임경주";
-$article2["tags"] = ["flex", "grow" "shrink"];
+$article2["tags"] = ["flex"];
 $article2["body"] = <<<'EOT'
 # 개요
 - 아이템은 컨테이너의 크기에 따라서 작아지기도 하고 커지기도 한다.
@@ -197,7 +211,6 @@ for ( $i = $maxArticleId; $i > 0; $i-- ) {
         }
     }
 }
-
 
 $_tags = array_unique($_tags);
 sort($_tags);
