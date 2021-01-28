@@ -6,12 +6,12 @@ $siteTitle = "디자이너 구미베어";
 $siteDescription = "디자이너 구미베어 기술 블로그 입니다.";
 $siteKeywordsStr = "CSS, HTML, JS";
 $siteName = "ʕ•ᴥ•ʔ 구미베어";
-$siteThumbUrl = "https://b.gummybear.kr/img/logo/logo_blog-main.png";
+$siteThumbUrl = "https://b.gummybear.kr/img/logo/blog-main.png";
 
 // 태그정보 시작
 $tagInfos = [
     "flex" => [
-        "pageThumbUrl" => "https://b.gummybear.kr/img/logo/logo_blog-flex.png",
+        "pageThumbUrl" => "https://b.gummybear.kr/img/logo/blog-flex.png",
         //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
     ],
 ];
