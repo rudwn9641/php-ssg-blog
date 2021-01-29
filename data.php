@@ -17,6 +17,108 @@ $tagInfos = [
 ];
 // 태그정보 끝
 
+// 게시물 7
+$article7 = [];
+$article7["id"] = 7;
+$article7["title"] = "7화, align-self";
+$article7["regDate"] = "2020-01-21 17:28:18";
+$article7["writerName"] = "ʕ•ᴥ•ʔ";
+$article7["writerAvatar"] = "임경주";
+$article7["tags"] = ["flex"];
+$article7["body"] = <<<'EOT'
+- align-self는 개별 요소에 적용할 수 있는 또 다른 속성입니다. 이 속성은 
+align-items가 사용하는 값들을 인자로 받으며, 그 값들은 지정한 요소에만 적용됩니다.
+- auto:default, container, align-item 속성을 따라간다. parent contaniner가 없다면 stretch로 된다.
+- stretch: container 전체에 fit하기 위해 stretch된다.
+- center: 가운데 정렬
+- flex-start: container의 시작부분에 위치
+- flex-end: container의 끝부분에 위치
+- baseline: container의 baseline에 위치
+- initial:
+- inherit:
+
+# 예시
+```html
+<!doctype>
+<html>
+    <head>
+        <style>
+            #main {
+                width: 220px;
+                height: 300px;
+                border: 1px solid black;
+                display: flex;
+                align-items: flex-start;
+            }
+
+            #main div {
+                flex: 1;
+            }
+
+            #myBlueDiv {
+                align-self: center;
+            }
+        </style>
+    </head>
+</html>
+```
+EOT;
+
+// 게시물 6
+$article6 = [];
+$article6["id"] = 6;
+$article6["title"] = "6화, order";
+$article6["regDate"] = "2020-01-20 17:28:17";
+$article6["writerName"] = "ʕ•ᴥ•ʔ";
+$article6["writerAvatar"] = "임경주";
+$article6["tags"] = ["flex"];
+$article6["body"] = <<<'EOT'
+- order의 기본 값은 0이며, 양수나 음수로 바꿀 수 있습니다.
+
+EOT;
+
+// 게시물 5
+$article5 = [];
+$article5["id"] = 5;
+$article5["title"] = "5화, flex-direction";
+$article5["regDate"] = "2020-01-19 17:28:16";
+$article5["writerName"] = "ʕ•ᴥ•ʔ";
+$article5["writerAvatar"] = "임경주";
+$article5["tags"] = ["flex"];
+$article5["body"] = <<<'EOT'
+- row: 요소들을 텍스트의 방향과 동일하게 정렬합니다.
+- row-reverse: 요소들을 텍스트의 반대 방향으로 정렬합니다.
+- column: 요소들을 위에서 아래로 정렬합니다.
+- column-reverse: 요소들을 아래에서 위로 정렬합니다.
+
+# 예시
+```html
+<!doctype>
+<html>
+    <head>
+        <style>
+            .father {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                height:100vh;
+            }
+
+            .child {
+                width: 200px;
+                height: 200px;
+                background-color: peru;
+                color: white;
+                font-size: 100px;
+            }
+        </style>
+    </head>
+</html>
+```
+EOT;
+
+
 
 // 게시물 4
 $article4 = [];

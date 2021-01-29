@@ -20,17 +20,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>flex 관련 글 리스트</title>
-  <meta name="title" content="flex 관련 글 리스트" />
-  <meta name="description" content="flex 관련 글 리스트입니다." />
+  <title>7화, align-self</title>
+  <meta name="title" content="7화, align-self" />
+  <meta name="description" content="- align-self는 개별 요소에 적용할 수 있는 또 다른 속성입니다. 이 속성은 align-items가 사용하는 값들을 인자로 받으며, 그 값들은 지정한 요소에만 적용됩니다. - auto:default, container, align-item 속성을 따라간다. parent contaniner가 없다면 stretch로 된다. - stretch: container 전체에 fit하기 위해 stretch된다. - center: 가운데 정렬 - flex-start: container의 시작부분에 위치 - flex-end: container의 끝부분에 위치 - baseline: container의 baseline에 위치 - initial: - inherit: 예시 ```html #main { width: 220px; height: 300px; border: 1px solid black; display: flex; align-items: flex-start; } #main div { flex: 1; } #myBlueDiv { align-self: center; } ```" />
   <meta name="keywords" content="flex" />
   <meta name="copyright" content="ʕ•ᴥ•ʔ 구미베어" />
 
   <!-- OPENGRAPH -->
   <meta property="og:site_name" content="ʕ•ᴥ•ʔ 구미베어" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="flex 관련 글 리스트" />
-  <meta property="og:description" content="flex 관련 글 리스트입니다." />
+  <meta property="og:title" content="7화, align-self" />
+  <meta property="og:description" content="- align-self는 개별 요소에 적용할 수 있는 또 다른 속성입니다. 이 속성은 align-items가 사용하는 값들을 인자로 받으며, 그 값들은 지정한 요소에만 적용됩니다. - auto:default, container, align-item 속성을 따라간다. parent contaniner가 없다면 stretch로 된다. - stretch: container 전체에 fit하기 위해 stretch된다. - center: 가운데 정렬 - flex-start: container의 시작부분에 위치 - flex-end: container의 끝부분에 위치 - baseline: container의 baseline에 위치 - initial: - inherit: 예시 ```html #main { width: 220px; height: 300px; border: 1px solid black; display: flex; align-items: flex-start; } #main div { flex: 1; } #myBlueDiv { align-self: center; } ```" />
   <meta property="og:image" content="https://b.gummybear.kr/img/logo/blog-flex.png" />
   <meta property="og:image:alt" content="ʕ•ᴥ•ʔ 구미베어" />
   <meta property="og:image:width" content="486" />
@@ -177,90 +177,86 @@
 <section class="section-title con-min-width">
     <h1 class="con">
         <span>
-            <i class="fas fa-list"></i>
+            <i class="fas fa-newspaper"></i>
         </span>
         <span>
-            `flex` LIST
+            DETAIL
         </span>
     </h1>
 </section>
 
-<section class="section-article-list padding-0-10 con-min-width">
+<section class="section-article-detail padding-0-10 con-min-width">
     <div class="con">
-        <div class="article-list">
-            <ul>
-                                <li>
-                    <h1><a href="article_detail_7.html">7화, align-self</a></h1>
-                    <a href="article_detail_7.html" class="block article-list__reg-date">
-                        <span>
-                            <i class="far fa-calendar-alt"></i>
-                        </span>
-                        <span>
-                            2020-01-21 17:28:18                        </span>
-                    </a>
-                </li>
-                                <li>
-                    <h1><a href="article_detail_6.html">6화, order</a></h1>
-                    <a href="article_detail_6.html" class="block article-list__reg-date">
-                        <span>
-                            <i class="far fa-calendar-alt"></i>
-                        </span>
-                        <span>
-                            2020-01-20 17:28:17                        </span>
-                    </a>
-                </li>
-                                <li>
-                    <h1><a href="article_detail_5.html">5화, flex-direction</a></h1>
-                    <a href="article_detail_5.html" class="block article-list__reg-date">
-                        <span>
-                            <i class="far fa-calendar-alt"></i>
-                        </span>
-                        <span>
-                            2020-01-19 17:28:16                        </span>
-                    </a>
-                </li>
-                                <li>
-                    <h1><a href="article_detail_4.html">4화, align-items</a></h1>
-                    <a href="article_detail_4.html" class="block article-list__reg-date">
-                        <span>
-                            <i class="far fa-calendar-alt"></i>
-                        </span>
-                        <span>
-                            2020-01-18 17:28:15                        </span>
-                    </a>
-                </li>
-                                <li>
-                    <h1><a href="article_detail_3.html">3화, justifiy-content</a></h1>
-                    <a href="article_detail_3.html" class="block article-list__reg-date">
-                        <span>
-                            <i class="far fa-calendar-alt"></i>
-                        </span>
-                        <span>
-                            2020-01-12 12:12:15                        </span>
-                    </a>
-                </li>
-                                <li>
-                    <h1><a href="article_detail_2.html">2화, grow & shrink</a></h1>
-                    <a href="article_detail_2.html" class="block article-list__reg-date">
-                        <span>
-                            <i class="far fa-calendar-alt"></i>
-                        </span>
-                        <span>
-                            2020-01-12 12:12:14                        </span>
-                    </a>
-                </li>
-                                <li>
-                    <h1><a href="article_detail_1.html">1화, flex 오리엔테이션</a></h1>
-                    <a href="article_detail_1.html" class="block article-list__reg-date">
-                        <span>
-                            <i class="far fa-calendar-alt"></i>
-                        </span>
-                        <span>
-                            2020-01-12 12:12:14                        </span>
-                    </a>
-                </li>
-                            </ul>
+        <h1 class="article-list-box__title">7화, align-self</h1>
+
+        <div class="article-list-box__reg-date">2020-01-21 17:28:18</div>
+        
+        <div class="article-list-box__writer">
+            <span>ʕ•ᴥ•ʔ</span>
+            <span>임경주</span>
         </div>
+
+        <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_flex.html">#flex</a>        </div>
+        
+        <div class="article-list-box__body">
+            <script type="text/x-template">- align-self는 개별 요소에 적용할 수 있는 또 다른 속성입니다. 이 속성은 
+align-items가 사용하는 값들을 인자로 받으며, 그 값들은 지정한 요소에만 적용됩니다.
+- auto:default, container, align-item 속성을 따라간다. parent contaniner가 없다면 stretch로 된다.
+- stretch: container 전체에 fit하기 위해 stretch된다.
+- center: 가운데 정렬
+- flex-start: container의 시작부분에 위치
+- flex-end: container의 끝부분에 위치
+- baseline: container의 baseline에 위치
+- initial:
+- inherit:
+
+# 예시
+```html
+<!doctype>
+<html>
+    <head>
+        <style>
+            #main {
+                width: 220px;
+                height: 300px;
+                border: 1px solid black;
+                display: flex;
+                align-items: flex-start;
+            }
+
+            #main div {
+                flex: 1;
+            }
+
+            #myBlueDiv {
+                align-self: center;
+            }
+        </style>
+    </head>
+</html>
+```</script>
+            <div class="toast-ui-viewer"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-article-reply-box padding-0-10 con-min-width">
+    <div class="con">
+    <div id="disqus_thread"></div>
+    
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'https://b.oa.gg/article_detail_7.html';
+            this.page.identifier = 'article_detail_7.html';
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://phpblog-2.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
     </div>
 </section>
 

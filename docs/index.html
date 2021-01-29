@@ -192,6 +192,113 @@
     <div class="article-list-box">
       <ul>
                 <li>
+          <h1 class="article-list-box__title"><a href="article_detail_7.html">7화, align-self</a></h1>
+          <div class="article-list-box__reg-date">2020-01-21 17:28:18</div>
+          <div class="article-list-box__writer">
+            <span>ʕ•ᴥ•ʔ</span>
+            <span>임경주</span>
+          </div>
+          <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_flex.html">#flex</a>          </div>
+          <div class="article-list-box__body">
+            <script type="text/x-template">- align-self는 개별 요소에 적용할 수 있는 또 다른 속성입니다. 이 속성은 
+align-items가 사용하는 값들을 인자로 받으며, 그 값들은 지정한 요소에만 적용됩니다.
+- auto:default, container, align-item 속성을 따라간다. parent contaniner가 없다면 stretch로 된다.
+- stretch: container 전체에 fit하기 위해 stretch된다.
+- center: 가운데 정렬
+- flex-start: container의 시작부분에 위치
+- flex-end: container의 끝부분에 위치
+- baseline: container의 baseline에 위치
+- initial:
+- inherit:
+
+# 예시
+```html
+<!doctype>
+<html>
+    <head>
+        <style>
+            #main {
+                width: 220px;
+                height: 300px;
+                border: 1px solid black;
+                display: flex;
+                align-items: flex-start;
+            }
+
+            #main div {
+                flex: 1;
+            }
+
+            #myBlueDiv {
+                align-self: center;
+            }
+        </style>
+    </head>
+</html>
+```</script>
+            <div class="toast-ui-viewer"></div>
+          </div>
+        </li>
+                <li>
+          <h1 class="article-list-box__title"><a href="article_detail_6.html">6화, order</a></h1>
+          <div class="article-list-box__reg-date">2020-01-20 17:28:17</div>
+          <div class="article-list-box__writer">
+            <span>ʕ•ᴥ•ʔ</span>
+            <span>임경주</span>
+          </div>
+          <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_flex.html">#flex</a>          </div>
+          <div class="article-list-box__body">
+            <script type="text/x-template">- order의 기본 값은 0이며, 양수나 음수로 바꿀 수 있습니다.
+</script>
+            <div class="toast-ui-viewer"></div>
+          </div>
+        </li>
+                <li>
+          <h1 class="article-list-box__title"><a href="article_detail_5.html">5화, flex-direction</a></h1>
+          <div class="article-list-box__reg-date">2020-01-19 17:28:16</div>
+          <div class="article-list-box__writer">
+            <span>ʕ•ᴥ•ʔ</span>
+            <span>임경주</span>
+          </div>
+          <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_flex.html">#flex</a>          </div>
+          <div class="article-list-box__body">
+            <script type="text/x-template">- row: 요소들을 텍스트의 방향과 동일하게 정렬합니다.
+- row-reverse: 요소들을 텍스트의 반대 방향으로 정렬합니다.
+- column: 요소들을 위에서 아래로 정렬합니다.
+- column-reverse: 요소들을 아래에서 위로 정렬합니다.
+
+# 예시
+```html
+<!doctype>
+<html>
+    <head>
+        <style>
+            .father {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                height:100vh;
+            }
+
+            .child {
+                width: 200px;
+                height: 200px;
+                background-color: peru;
+                color: white;
+                font-size: 100px;
+            }
+        </style>
+    </head>
+</html>
+```</script>
+            <div class="toast-ui-viewer"></div>
+          </div>
+        </li>
+                <li>
           <h1 class="article-list-box__title"><a href="article_detail_4.html">4화, align-items</a></h1>
           <div class="article-list-box__reg-date">2020-01-18 17:28:15</div>
           <div class="article-list-box__writer">
