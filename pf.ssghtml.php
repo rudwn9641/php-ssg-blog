@@ -10,6 +10,7 @@ require_once "head.php";
   <h1 class="con">
     <span>
       <i class="fas fa-list-ol"></i>
+      <a href="pf/index.html">UI/UX 화상회의 앱</a>
     </span>
     <span>
       PORFOLIO
