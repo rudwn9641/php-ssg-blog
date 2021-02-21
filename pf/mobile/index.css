@@ -217,7 +217,6 @@ html {
     height:1700px;
     margin-top:20%;
     position:relative;
-    border:2px solid red;
   }
   
   .img-10 {
@@ -327,19 +326,19 @@ html {
   .img-22 {
     position:absolute;
     margin-top:5%;
-    margin-left:10%;
+    margin-left:15%;
   }
   
   .img-23 {
     position:absolute;
     margin-top:15%;
-    margin-left:35%;
+    margin-left:42.5%;
   }
   
   .img-24 {
     position:absolute;
     margin-top:25%;
-    margin-left:60%;
+    margin-left:70%;
   }
   
   .img-25 {
