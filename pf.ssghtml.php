@@ -13,7 +13,7 @@ require_once "head.php";
       <a href="pf/index.html">UI/UX 화상회의 앱</a>
     </span>
     <span>
-      PORFOLIO
+      <a href="pf/mobile/index.html?dummy=123123" target="_blank">PORFOLIO 보기</a>
     </span>
   </h1>
 </section>
