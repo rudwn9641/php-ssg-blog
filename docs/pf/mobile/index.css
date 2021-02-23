@@ -145,6 +145,8 @@ html {
   
   .img-4 {
     margin-left:15%;
+    position: relative;
+    z-index: 10;
   }
   
   .section-2 .big {
