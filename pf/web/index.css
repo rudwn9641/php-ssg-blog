@@ -1,0 +1,274 @@
+/* 노말라이즈 */
+
+html {
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  
+  @font-face {
+      font-family: 'ChosunSm';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.1/ChosunSm.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  body,
+  ul,
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  /* 라이브러리 */
+  
+  .con {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-jc-e {
+    justify-content: flex-end;
+  }
+  
+  .flex-jc-c {
+    justify-content: center;
+  }
+  
+  .flex-jc-sb {
+    justify-content: space-between;
+  }
+  
+  .flex-jc-sa {
+    justify-content: space-around;
+  }
+  
+  .flex-ai-c {
+    align-items: center;
+  }
+  
+  .flex-as-c {
+    align-self: center;
+  }
+  .flex-ac-sb {
+    align-content: space-between;
+  }
+  
+  .flex-ai-e {
+    align-items: flex-end;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  * > .flex-1-0-0 {
+    flex: 1 0 0;
+  }
+  
+  @media (max-width: 720px) {
+    .visible-md-up {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 721px) {
+    .visible-sm-down {
+      display: none;
+    }
+  }
+  /* 라이브러리 끝 */
+  
+  /* 커스텀 시작 */
+  
+  :root {
+    --site-width: 1903px;
+  }
+  
+  .con {
+    max-width: var(--site-width);
+  }
+  
+  /* 메뉴바 배경색 */
+  
+  .top-bar.bg {
+    background-color: white;
+    transition: 0.5s;
+  }
+  
+  /* 1차 메인 시작 */
+  
+  .top-bar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+  }
+  
+  .top-bar > .menu-box-1 {
+    width: 1800px;
+    height: 80px;
+    padding: 30px;
+    background-color: white;
+  }
+  
+  .top-bar > .menu-box-1 .logo > a > img {
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 213px;
+    height: 57px;
+  }
+  
+  .top-bar > .menu-box-1 .item-list-box {
+    width: 80%;
+    margin-right: 30px;
+  }
+  
+  .top-bar > .menu-box-1 .item-list-box > li > a {
+    padding: 20px 10px;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  
+  .top-bar > .menu-box-1 .item-list-box .login li > a {
+    font-weight: lighter;
+  }
+  
+  .top-bar > .menu-box-1 .item-list-box .login li:first-child a {
+    padding-right: 15px;
+  }
+  
+  .top-bar > .menu-box-1 .item-list-box .login li:last-child a {
+    border-left: 1.5px solid black;
+    padding-left: 15px;
+  }
+  
+  .top-bar .two-lines {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+  /* 검색창 */
+  
+  .field-container {
+    border: 0;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: 10px;
+    top:-10px;
+  }
+  
+  .icons-container {
+    position: absolute;
+    top: 3px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  
+  .field {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    outline: none;
+  }
+  
+  /* 스와이퍼 슬라이드 */
+  
+  .swiper-container {
+    width: 91%;
+    height: 750px;
+    top: 200px;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  .swiper-slide {
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-container > .swiper-wrapper .swiper-slide {
+    width: 100%;
+    height: 95%;
+  }
+  
+  .swiper-container > .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+  }
+  
+  .swiper-container > .swiper-wrapper .swiper-slide span {
+    font-size:45px;
+    font-family: 'ChosunSm';
+    color:white;
+    right:50px;
+    top:60px;
+    position:absolute;
+  }
+  
+  .swiper-container > .swiper-wrapper .swiper-slide span:last-child {
+    font-size:80px;
+    top:140px;
+  }
+  
+  .swiper-container > .swiper-wrapper .swiper-slide:nth-child(4) span {
+    font-size:45px;
+    font-family: 'ChosunSm';
+    text-align:center;
+    color:white;
+    top:250px;
+    left:auto;
+    right:auto;
+    position:absolute;
+  }
+  
+  .swiper-container > .swiper-wrapper .swiper-slide:nth-child(4) span:last-child {
+    font-size:80px;
+    top:320px;
+  }
+  
+  .swiper-container > .swiper-wrapper .swiper-slide:nth-child(5) span {
+    font-size:45px;
+    font-family: 'ChosunSm';
+    text-align:center;
+    color:white;
+    top:250px;
+    left:auto;
+    right:auto;
+    position:absolute;
+  }
+  
+  .swiper-container > .swiper-wrapper .swiper-slide:nth-child(5) span:last-child {
+    font-size:80px;
+    top:320px;
+  }
+  
+  
+  /* 스와이퍼 슬라이드 버튼 */
+  
+  
