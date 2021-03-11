@@ -1,79 +1,11 @@
 <?php
 $title = "공간 디자인";
+$pageCode = "space_design";
 require_once "head.php";
 ?>
 
-<!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
-
-        <script>
-            // 주소 뒤에 / 를 붙여주는 코드
-            // 오직 index.html 에만 넣어주세요.
-            if (location.pathname.substr(-10, 10) != 'index.html' && location.pathname.substr(-1, 1) != '/') {
-                location.replace(location.href + '/');
-            }
-        </script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
-
-        <!--구글폰트-->
-
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;700&display=swap"
-            rel="stylesheet">
-
-        <!-- 폰트어썸 불러오기 -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-        <!-- 스와이퍼 불러오기 시작 -->
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <!-- 스와이퍼 불러오기 끝 -->
-
-        <link rel="stylesheet" href="index.css">
-        <script src="common.js" defer></script>
-    </head>
-
-    <body>
-        <!-- 공간 전시 메뉴 -->
-
-<heder class="space-deign con-min-width">
-  <div class="con flex flex-jc-c">
-    <div class="menu-box-2 flex flex-jc-c flex-wrap">
-      <div class="title">SPACE DESIGN</div>
-      <ui class="list-item flex flex-jc-c flex-wrap flex-ai-c">
-        <li><a href="#">All</a></li>
-        <li><a href="#">Theme</a></li>
-        <li><a href="#">Zoom in</a></li>
-        <li><a href="#">House</a></li>
-        <li><a href="#">Coordination</a></li>
-        <li><a href="#">Commercial</a></li>
-        <li><a href="#">Office</a></li>
-        <li><a href="#">Architecture</a></li>
-        <li><a href="#">Hospital</a></li>
-        <li><a href="#">Hotel & Resort</a></li>
-        <li><a href="#">Showroom</a></li>
-        <li><a href="#">Cafe & Restaurant</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Etc</a></li>
-      </ui>
-    </div>
-  </div>
-</heder>
+<script src="common.js" defer></script>
+<link rel="stylesheet" href="space_design.css">
 
 <div class="main-2">
   <div class="con main-box">
@@ -83,7 +15,7 @@ require_once "head.php";
       <div class="item-list">
         <div class="content flex flex-jc-c">
           <div class="img-box">
-            <a href="https://to2.kr/caT"><img src="https://i.postimg.cc/XY1mKhJQ/ed08a707e3134.jpg" alt=""></a>
+            <a href="small_home.ssghtml.php"><img src="https://i.postimg.cc/XY1mKhJQ/ed08a707e3134.jpg" alt=""></a>
           </div>
           <div class="contaner">
             <h3>행복이 시작되는 곳</h3>
@@ -216,3 +148,7 @@ require_once "head.php";
   <div>MORE</div>
   <span></span>
 </div>
+
+<?php
+require_once "foot.php";
+?>
