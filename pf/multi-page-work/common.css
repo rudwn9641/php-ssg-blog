@@ -134,7 +134,7 @@ a {
 }
 
 body {
-  padding-top:calc(var(--top-bar__height) + 50px);
+  padding-top:calc(var(--top-bar__height) + 60px);
 }
 
 .top-bar .two-lines {
@@ -157,16 +157,6 @@ body {
 }
 /* 검색창 끝*/
 
-.txt-box > div {
-  font-family: 'ChosunSm';
-  text-align: right;
-  font-size: 3.5rem;
-  line-height: 90px;
-}
-
-.txt-box > div:nth-child(2) {
-  font-size: 5rem;
-}
 
 /* 슬라이드 좌우 버튼 시작 */
 
@@ -176,16 +166,62 @@ body {
   border:1px solid white;
   color:white;
   border-radius:50%;
-  top:30%;
-  right:3%;
+  top:50%;
+  right:7%;
   left:auto;
 }
 
 #arrow:nth-child(2) {
-  left:3%;
+  left:7%;
   right:auto;
 }
 
 /* 슬라이드 좌우 버튼 끝 */
 
 /* 스와이퍼 슬라이드 이미지 수정 */
+
+.swiper-slide > div > img {
+  height: 750px;
+  width:91%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-1 {
+  width:80%;
+}
+
+.section-1 > div  {
+  border:1px solid red;
+  width:100%;
+  position: relative;
+}
+
+.section-1 > div > .my-slider-1 > .swiper-container > .swiper-wrapper > .swiper-slide > .relative .txt-box {
+  font-family: 'ChosunSm';
+  font-size: 3.5rem;
+  line-height: 90px;
+}
+
+.section-1 > div > .my-slider-1 > .swiper-container > .swiper-wrapper > .leading-tight {
+  z-index: 10;
+  margin-left: 91%;
+  margin-top: 100px;
+  transform: rotate(90deg);
+  position: absolute;
+  white-space:nowrap;
+}
+
+.swiper-slide.slide-1 > .relative .txt-box {
+  top:70%;
+  left: 70%;
+}
+
+.swiper-slide.slide-3 > .relative .txt-box {
+  top:40%;
+  left: 40%;
+}
+
+.swiper-slide > div > .txt-box > .leading-tight:nth-child(2) {
+  font-size: 5rem;
+}

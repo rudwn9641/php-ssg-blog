@@ -13,43 +13,35 @@ require_once "head.php";
     <div class="my-slider-1">
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
+        <div class="leading-tight">SPACE DESIGN-나의 작은 집</div>
+          <div class="swiper-slide slide-1">
             <div class="relative">
-              <img class="w-full object-cover block height-750px" src="https://i.postimg.cc/XY1mKhJQ/ed08a707e3134.jpg"
-                alt="">
-              <div class="txt-box absolute right-10 top-10 text-white">
-                <div class="leading-tight">행복이 시작되는 곳</div>
-                <div class="leading-tight">나의 작은 집</div>
+              <img class="w-full object-cover block"
+                src="https://i.postimg.cc/W3QjhTpV/patrick-perkins-3wyl-Drjx-H-E-unsplash.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide slide-2">
+            <div class="relative">
+              <img class="w-full object-cover block"
+                src="https://i.postimg.cc/0jc3jHJg/photo-1613685303213-1f646ca61306.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide slide-3">
+            <div class="relative">
+              <img class="w-full object-cover block"
+                src="https://i.postimg.cc/RCH426GZ/lissete-laverde-A7-L8s3y-TF5o-unsplash.jpg" alt="">
+              <div class="txt-box absolute text-white text-center">
+                <div class="leading-tight">멈추지 않는 공간</div>
+                <div class="leading-tight">AMOO</div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide slide-4">
             <div class="relative">
-              <img class="w-full object-cover block" src="https://i.postimg.cc/XY1mKhJQ/ed08a707e3134.jpg"
-                alt="">
-              <div class="txt-box absolute right-10 top-10 text-white">
-                <div class="leading-tight">행복이 시작되는 곳</div>
-                <div class="leading-tight">나의 작은 집</div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="relative">
-              <img class="w-full object-cover block" src="https://i.postimg.cc/XY1mKhJQ/ed08a707e3134.jpg"
-                alt="">
-              <div class="txt-box absolute right-10 top-10 text-white">
-                <div class="leading-tight">행복이 시작되는 곳</div>
-                <div class="leading-tight">나의 작은 집</div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="relative">
-              <img class="w-full object-cover block" src="https://i.postimg.cc/XY1mKhJQ/ed08a707e3134.jpg"
-                alt="">
-              <div class="txt-box absolute right-10 top-10 text-white">
-                <div class="leading-tight">행복이 시작되는 곳</div>
-                <div class="leading-tight">나의 작은 집</div>
+              <img class="w-full object-cover block" src="https://i.postimg.cc/kM1DFwKZ/pesce-huang-IQs3hcg4-To0-unsplash.jpg" alt="">
+              <div class="txt-box absolute text-white">
+                <div class="leading-tight">Luxurious but Cozy</div>
+                <div class="leading-tight">AYTM</div>
               </div>
             </div>
           </div>
