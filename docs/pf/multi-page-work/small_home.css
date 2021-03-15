@@ -1,0 +1,316 @@
+ /* 나의 작은 집 시작 */
+  
+  .menu-box-3 {
+    position:fixed;
+    padding-top:200px;
+    margin-left:100px;
+    width: 15%;
+    height: 800px;
+    border-right:1px solid black;
+  }
+  
+  .menu-box-3 .list-item {
+    margin-top: -400px;
+    width: 1500px;
+    height: 100px;
+    font-size: 20px;
+  }
+  
+  .menu-box-3 .list-item > li {
+    line-height:50px;
+  }
+  
+  .menu-box-3 .list-item > li > a {
+    padding: 20px;
+    font-weight: lighter;
+  }
+  
+  /* 내용 박스 */
+  
+  .section-1 {
+    position:relative;
+    width:1300px;
+    height:750px;
+    top:200px;
+    right:100px;
+    left:500px;
+    overflow:hidden;
+  }
+  
+  .section-1 > img {
+    width:100%;
+    height:100%;
+    position:absolute;
+  }
+  
+  .section-2 {
+    width:1300px;
+    height:750px;
+    text-align:right;
+    margin-top:300px;
+    margin-right:100px;
+    margin-left:500px;
+  }
+  
+  .section-2 .line {
+    border-right:1px solid black;
+    height:300px;
+    margin-top:50px;
+    margin-bottom:50px;
+  }
+  
+  .section-2 > span {
+    font-family: serif;
+    font-size:30px;
+    line-height:50px;
+  }
+  
+  .section-3 {
+    position:relative;
+    width:1300px;
+    height:850px;
+    right:100px;
+    left:500px;
+  }
+  
+  
+  .section-3 .img-box-1 {
+    width:1300px;
+    height:500px;
+    position:absolute;
+    overflow:hidden;
+  }
+  
+  .section-3 img {
+    width:100%;
+    height:100%;
+  }
+  
+  .section-3 .text-box-1 {
+    width:100%;
+    height:350px;
+    position:absolute;
+    bottom:0;
+  }
+  
+  .section-3 span {
+    font-size:16px;
+    font-weight:100px;
+    display:block;
+    line-height:30px;
+    margin-top:20px;
+    font-family: 'ChosunSg';
+  }
+  
+  .section-4 {
+    position:relative;
+    width:1400px;
+    height:850px;
+    top:100px;
+    right:0;
+    left:500px;
+  }
+  
+  
+  .section-4 .img-box-2 {
+    width:1300px;
+    height:500px;
+    right:0;
+    text-align:right;
+    position:absolute;
+    overflow:hidden;
+  }
+  
+  .section-4 .text-box-2 {
+    width:100%;
+    height:350px;
+    left:0;
+    position:absolute;
+    bottom:200px;
+  }
+  
+  .section-4 span {
+    text-align:left;
+    font-size:20px;
+    display:block;
+    line-height:30px;
+    font-family: 'ChosunSg';
+  }
+  
+  .section-4 span:nth-child(2) {
+    font-weight:bold;
+    font-size:25px;
+    line-height:50px;
+  }
+  
+  .section-5 {
+    position:relative;
+    width:1300px;
+    height:850px;
+    top:-200px;
+    right:100px;
+    left:500px;
+  }
+  
+  .section-5 > span {
+    font-size:16px;
+    font-weight:100px;
+    display:block;
+    line-height:30px;
+    margin-top:15px;
+    font-family: 'ChosunSg';
+  }
+  
+  .section-5 > span:first-child {
+    text-align:right;
+    font-weight:bold;
+    font-size:20px;
+    border-bottom:1px solid black;
+  }
+  
+  .section-5 > span:nth-child(2) {
+    text-align:right;
+    font-size:14px;
+  }
+  
+  .section-6 {
+    position:relative;
+    width:1400px;
+    height:2000px;
+    top:-650px;
+    right:0;
+    left:500px;
+  }
+  
+  .section-6 .img-box-3 {
+    width:1300px;
+    height:1566px;
+    position:absolute;
+    overflow:hidden;
+  }
+  
+  .section-6 .img-box-3 > img {
+    width:100%;
+    height:100%;
+  }
+  
+  .section-6 .text-box-3 {
+    width:1300px;
+    height:350px;
+    left:0;
+    position:absolute;
+    bottom:50px;
+  }
+  
+  .section-6 span {
+    text-align:left;
+    font-size:16px;
+    display:block;
+    line-height:25px;
+    font-family: 'ChosunSg';
+  }
+  
+  .section-6 span:first-child {
+    font-weight:bold;
+  }
+  
+  .section-6 span:nth-child(2) {
+    font-size:14px;
+  }
+  
+  .section-6 span:last-child {
+    margin-top:40px;
+  }
+  
+  .section-7 {
+    position:relative;
+    width:1400px;
+    height:1400px;
+    top:-700px;
+    right:0;
+    left:500px;
+  }
+  
+  .section-7 .img-box-4 {
+    width:1300px;
+    height:1000px;
+    position:absolute;
+    overflow:hidden;
+  }
+  
+  .section-7 .img-box-4 > img {
+    width:100%;
+    height:100%;
+  }
+  
+  .section-7 .text-box-4 {
+    width:1300px;
+    height:350px;
+    left:0;
+    position:absolute;
+    bottom:30px;
+  }
+  
+  .section-7 span {
+    text-align:left;
+    font-size:16px;
+    display:block;
+    line-height:25px;
+    font-family: 'ChosunSg';
+  }
+  
+  .section-8 {
+    position:relative;
+    width:1400px;
+    height:1400px;
+    top:-900px;
+    right:0;
+    left:500px;
+  }
+  
+  .section-8 .img-box-5 {
+    width:1300px;
+    height:1000px;
+    position:absolute;
+    overflow:hidden;
+  }
+  
+  .section-8 .img-box-5 > img {
+    width:100%;
+    height:100%;
+  }
+  
+  .section-8 .text-box-5 {
+    width:1300px;
+    height:350px;
+    left:0;
+    position:absolute;
+    bottom:30px;
+  }
+  
+  .section-8 span {
+    text-align:left;
+    font-size:14px;
+    display:block;
+    line-height:25px;
+    font-family: 'ChosunSg';
+  }
+  
+  .section-8 span:first-child {
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .section-9 {
+    position:relative;
+    width:1300px;
+    height:500px;
+    top:-1100px;
+    right:0;
+    left:500px;
+    border-top:1px solid #dfdfdf;
+  }
+  
+  .section-9 > span {
+    display:block;
+  }

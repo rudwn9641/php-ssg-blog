@@ -1,0 +1,232 @@
+/* 노말라이즈 */
+html {
+  font-family: "Noto Sans KR", sans-serif, "Shippori Mincho B1", serif;
+}
+
+@font-face {
+  font-family: 'ChosunSm';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.1/ChosunSm.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* 라이브러리 */
+
+.con {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-jc-e {
+  justify-content: flex-end;
+}
+
+.flex-jc-c {
+  justify-content: center;
+}
+
+.flex-jc-sb {
+  justify-content: space-between;
+}
+
+.flex-jc-sa {
+  justify-content: space-around;
+}
+
+.flex-ai-c {
+  align-items: center;
+}
+
+.flex-as-c {
+  align-self: center;
+}
+
+.flex-ac-sb {
+  align-content: space-between;
+}
+
+.flex-ai-e {
+  align-items: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+*>.flex-1-0-0 {
+  flex: 1 0 0;
+}
+
+.height-750px {
+  height:750px;
+}
+
+/* 라이브러리 끝 */
+
+/* 커스텀 시작 */
+
+:root {
+  --site-width: 1903px;
+}
+
+.con {
+  width: 1730px;
+}
+
+.con-min-width {
+  min-width: var(--site-width);
+}
+
+/* 스크롤바 꾸미기 시작 */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #666;
+}
+
+/* 스크롤바 꾸미기 끝 */
+
+/* 메뉴바 배경색 */
+
+.top-bar.bg {
+  background-color: white;
+  transition: 0.5s;
+}
+
+/* 1차 메인 시작 */
+
+:root {
+  --top-bar__height:100px;
+}
+
+.top-bar {
+  height: var(--top-bar__height);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+body {
+  padding-top:calc(var(--top-bar__height) + 60px);
+}
+
+.top-bar .two-lines {
+  height: 10px;
+  background-color: white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.top-bar>div>ul>li.active>a {
+  font-weight: bold;
+}
+
+.top-bar>div>ul>li>a {
+  font-weight: lighter;
+}
+
+.top-bar>div>.search-box>input{
+  font-weight: lighter;
+}
+
+form > input {
+  border-bottom: 1px solid black;
+}
+
+/* 검색창 끝*/
+
+
+/* 슬라이드 좌우 버튼 시작 */
+
+#arrow {
+	width:100px;
+  height:100px;
+  border:1px solid white;
+  color:white;
+  border-radius:50%;
+  top:50%;
+  right:7%;
+  left:auto;
+}
+
+#arrow:nth-child(2) {
+  left:7%;
+  right:auto;
+}
+
+/* 슬라이드 좌우 버튼 끝 */
+
+/* 스와이퍼 슬라이드 이미지 수정 */
+
+.swiper-slide > div > img {
+  height: 750px;
+  width:91%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-1 {
+  width:80%;
+}
+
+.section-1 > div  {
+  border:1px solid red;
+  width:100%;
+  position: relative;
+}
+
+.section-1 > div > .my-slider-1 > .swiper-container > .swiper-wrapper > .swiper-slide > .relative .txt-box {
+  font-family: 'ChosunSm';
+  font-size: 3.5rem;
+  line-height: 90px;
+}
+
+.section-1 > div > .my-slider-1 > .swiper-container > .swiper-wrapper > .leading-tight {
+  z-index: 10;
+  margin-left: 91%;
+  margin-top: 100px;
+  transform: rotate(90deg);
+  position: absolute;
+  white-space:nowrap;
+}
+
+.swiper-slide.slide-1 > .relative .txt-box {
+  top:70%;
+  left: 70%;
+}
+
+.swiper-slide.slide-3 > .relative .txt-box {
+  top:40%;
+  left: 40%;
+}
+
+.swiper-slide > div > .txt-box > .leading-tight:nth-child(2) {
+  font-size: 5rem;
+}
