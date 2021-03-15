@@ -3,7 +3,7 @@ require_once "data.php";
 require_once "head.php";
 ?>
 
-<link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="docs/css/pf.css">
 <script src="js/about.js" defer></script>
 
 <section class="section-title con-min-width">
