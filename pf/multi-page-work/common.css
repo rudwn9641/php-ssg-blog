@@ -196,37 +196,40 @@ form > input {
   width:80%;
 }
 
-.section-1 > div  {
-  border:1px solid red;
-  width:100%;
-  position: relative;
-}
-
-.section-1 > div > .my-slider-1 > .swiper-container > .swiper-wrapper > .swiper-slide > .relative .txt-box {
-  font-family: 'ChosunSm';
-  font-size: 3.5rem;
-  line-height: 90px;
-}
-
-.section-1 > div > .my-slider-1 > .swiper-container > .swiper-wrapper > .leading-tight {
+.leading-tight {
   z-index: 10;
-  margin-left: 91%;
-  margin-top: 100px;
   transform: rotate(90deg);
   position: absolute;
   white-space:nowrap;
+  right:-65px;
+  bottom:110px;
+  font-size: 20px;
 }
 
-.swiper-slide.slide-1 > .relative .txt-box {
-  top:70%;
-  left: 70%;
+.leading-tight-2 {
+  z-index: 10;
+  transform: rotate(90deg);
+  position: absolute;
+  white-space:nowrap;
+  right:-75px;
+  bottom:120px;
 }
 
-.swiper-slide.slide-3 > .relative .txt-box {
-  top:40%;
-  left: 40%;
+.leading-tight-3 {
+  z-index: 10;
+  transform: rotate(90deg);
+  position: absolute;
+  white-space:nowrap;
+  right:-20px;
+  bottom:70px;
 }
 
-.swiper-slide > div > .txt-box > .leading-tight:nth-child(2) {
-  font-size: 5rem;
+.leading-tight-4 {
+  z-index: 10;
+  transform: rotate(90deg);
+  position: absolute;
+  white-space:nowrap;
+  right:-55px;
+  bottom:100px;
 }
+
