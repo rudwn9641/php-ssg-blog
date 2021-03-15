@@ -8,10 +8,10 @@ require_once "head.php";
 <link rel="stylesheet" href="small_home.css">
         <!-- 공간 전시 메뉴 -->
 
-<heder class="small-home con-min-width">
+<header class="small-home con-min-width">
   <div class="con">
     <div class="menu-box-3">
-      <ui class="list-item">
+      <ul class="list-item">
         <li><a href="space_design.ssghtml.php">All</a></li>
         <li><a href="#">Theme</a></li>
         <li><a href="#">Zoom in</a></li>
@@ -26,7 +26,7 @@ require_once "head.php";
         <li><a href="#">Cafe & Restaurant</a></li>
         <li><a href="#">Shop</a></li>
         <li><a href="#">Etc</a></li>
-      </ui>
+      </ul>
     </div>
     
     <div class="section-1">
@@ -106,7 +106,7 @@ require_once "head.php";
     </div>
     
   </div>
-</heder>
+</header>
 
 <?php
 require_once "foot.php";

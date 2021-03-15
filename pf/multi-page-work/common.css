@@ -155,6 +155,11 @@ body {
 .top-bar>div>.search-box>input{
   font-weight: lighter;
 }
+
+form > input {
+  border-bottom: 1px solid black;
+}
+
 /* 검색창 끝*/
 
 

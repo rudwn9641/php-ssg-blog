@@ -1,212 +1,3 @@
-/* 노말라이즈 */
-
-html {
-    font-family: "Noto Sans KR", sans-serif, "Shippori Mincho B1", serif;
-  }
-  
-  body,
-  ul,
-  li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-  }
-  
-  /* 라이브러리 */
-  
-  .con {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .flex {
-    display: flex;
-  }
-  
-  .flex-jc-e {
-    justify-content: flex-end;
-  }
-  
-  .flex-jc-c {
-    justify-content: center;
-  }
-  
-  .flex-jc-sb {
-    justify-content: space-between;
-  }
-  
-  .flex-jc-sa {
-    justify-content: space-around;
-  }
-  
-  .flex-ai-c {
-    align-items: center;
-  }
-  
-  .flex-as-c {
-    align-self: center;
-  }
-  .flex-ac-sb {
-    align-content: space-between;
-  }
-  
-  .flex-ai-e {
-    align-items: flex-end;
-  }
-  
-  .flex-wrap {
-    flex-wrap: wrap;
-  }
-  
-  * > .flex-1-0-0 {
-    flex: 1 0 0;
-  }
-  
-  @media (max-width: 720px) {
-    .visible-md-up {
-      display: none;
-    }
-  }
-  
-  @media (min-width: 721px) {
-    .visible-sm-down {
-      display: none;
-    }
-  }
-  /* 라이브러리 끝 */
-  
-  /* 커스텀 시작 */
-  
-  :root {
-    --site-width: 1903px;
-  }
-  
-  .con {
-    max-width: var(--site-width);
-  }
-  
-  /* 스크롤 시작 */
-  
-  ::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #ddd;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #666;
-  }
-  
-  /* 스크롤 끝 */
-  
-  /* 메뉴바 배경색 */
-  
-  .top-bar.bg {
-    background-color: white;
-    transition: 0.5s;
-  }
-  
-  /* 1차 메인 시작 */
-  
-  .top-bar {
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    top: 0;
-    z-index: 10;
-    background-color: white;
-  }
-  
-  .top-bar > .menu-box-1 {
-    width: 1800px;
-    height: 80px;
-    padding: 30px;
-    background-color: white;
-  }
-  
-  .top-bar > .menu-box-1 .logo > a > img {
-    padding-left: 30px;
-    padding-top: 10px;
-    width: 213px;
-    height: 57px;
-  }
-  
-  .top-bar > .menu-box-1 .item-list-box {
-    width: 80%;
-    margin-right: 30px;
-  }
-  
-  .top-bar > .menu-box-1 .item-list-box > li > a {
-    padding: 20px 10px;
-    font-size: 18px;
-    font-weight: lighter;
-  }
-  
-  .top-bar > .menu-box-1 .item-list-box > li:nth-child(2) > a {
-    font-weight: initial;
-  }
-  
-  .top-bar > .menu-box-1 .item-list-box .login li > a {
-    font-weight: lighter;
-  }
-  
-  .top-bar > .menu-box-1 .item-list-box .login li:first-child a {
-    padding-right: 15px;
-  }
-  
-  .top-bar > .menu-box-1 .item-list-box .login li:last-child a {
-    border-left: 1.5px solid black;
-    padding-left: 15px;
-  }
-  
-  .top-bar .two-lines {
-    width: 100%;
-    height: 10px;
-    background-color: white;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-  }
-  
-  /* 검색창 */
-  
-  .field-container {
-    border: 0;
-    position: relative;
-    padding: 0;
-    margin: 0;
-    width: 200px;
-    height: 10px;
-    top: -10px;
-  }
-  
-  .icons-container {
-    position: absolute;
-    top: 3px;
-    right: -10px;
-    width: 20px;
-    height: 20px;
-    overflow: hidden;
-  }
-  
-  .field {
-    width: 100%;
-    height: 100%;
-    border: 0;
-    border-bottom: 1px solid black;
-    padding: 10px;
-    outline: none;
-  }
-  
-  /* 검색창 끝*/
-  
   /* 공간전시 */
   
   .space-deign {
@@ -215,7 +6,7 @@ html {
   }
   
   .menu-box-2 {
-    padding-top: 200px;
+    padding-top: 100px;
     width: 100%;
     height: 100vh;
   }
@@ -226,7 +17,7 @@ html {
   }
   
   .menu-box-2 .list-item {
-    margin-top: -400px;
+    margin-top: -350px;
     width: 1500px;
     height: 100px;
     font-size: 20px;
@@ -247,7 +38,7 @@ html {
   .main-2 {
     width: 100%;
     height: 250vh;
-    margin-top: -700px;
+    margin-top: -600px;
     padding: 0;
   }
   
@@ -277,7 +68,7 @@ html {
   
   .line-top-bottom-2 {
     position: absolute;
-    margin-top: 100px;
+    margin-top: 160px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     width: 100%;
@@ -340,18 +131,24 @@ html {
     line-height: 10px;
     bottom: 0;
   }
-  
+
+  .main-2 > .main-box .item-list-box > .item-list .content .contaner > h3 {
+    margin-top: 15px;
+  }
+
   .main-2 > .main-box .item-list-box > .item-list .content .contaner > h3:first-child {
     font-weight: lighter;
+    margin-top: 15px;
   }
   
-  .main-2 > .main-box .item-list-box > .item-list .content .contaner > h3:last-child {
-    font-size: 1.5rem;
+  .main-2 > .main-box .item-list-box > .item-list .content .contaner > h3:nth-child(2) {
+    font-size: 20px;
   }
   
   .main-2 > .main-box .item-list-box > .item-list .content .contaner > .text {
     font-weight: lighter;
     line-height: 25px;
+    margin-top: 20px;
   }
   
   .btn {

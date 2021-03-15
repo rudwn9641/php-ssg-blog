@@ -16,7 +16,7 @@ require_once "head.php";
             <li class="item-1"><a href="#">Mobile App</a></li>
             <li class="item-2"><a href="#">Poster Design</a></li>
             <li class="item-3"><a href="#">Banner Design</a></li>
-            <li class="item-4"><a href="#">Web design</a></li>
+            <li class="item-4"><a href="pf/multi-page-work/index.ssghtml.php">Web design</a></li>
             <li class="item-5"><a href="#">Infographics</a></li>
             <li class="item-5"><a href="#">Book Design</a></li>
           </ul>

@@ -23,123 +23,71 @@
   }
   
   .section-1 {
-    display:block;
+    display:flex;
+    justify-content: center;
     margin-top:300px;
-    text-align:center;
-  }
-  
-  .section-1 > a > img {
-    width:70%;
-    height:70%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .section-2 {
-    display:block;
+    display:flex;
+    justify-content: center;
     margin-top:300px;
     text-align:center;
-  }
-  
-  .section-2 > a > img {
-    width:80%;
-    height:80%;
   }
   
   .section-3 {
-    display:block;
+    display:flex;
+    justify-content: center;
     margin-top:300px;
-    text-align:center;
-  }
-  
-  .section-3 > a > img {
-    width:80%;
-    height:80%;
   }
   
   .section-4 {
-    display:block;
+    display:flex;
+    justify-content: center;
     margin-top:300px;
-    text-align:center;
-  }
-  
-  .section-4 > a > img {
-    width:60%;
-    height:60%;
   }
   
   .section-5 {
-    display:block;
+    display:flex;
+    justify-content: center;
     margin-top:300px;
-    text-align:center;
-  }
-  
-  .section-5 > a > img {
-    width:70%;
-    height:70%;
   }
   
   .section-6 {
-    display:block;
+    display:flex;
+    justify-content: center;
     margin-top:300px;
-    text-align:center;
-  }
-  
-  .section-6 > a > img {
-    width:70%;
-    height:70%;
   }
   
   .section-7 {
-    display:block;
+    display:flex;
+    justify-content: center;
     margin-top:300px;
-    text-align:center;
-  }
-  
-  .section-7 > a > img {
-    width:70%;
-    height:70%;
   }
   
   .section-8 {
-    display:block;
+    display:flex;
+    justify-content: center;
     margin-top:300px;
-    text-align:center;
-  }
-  
-  .section-8 > a > img {
-    width:70%;
-    height:70%;
   }
   
   .section-9 {
-    display:block;
+    display:flex;
+    justify-content: center;
     margin-top:300px;
-    text-align:center;
-  }
-  
-  .section-9 > a > img {
-    width:70%;
-    height:70%;
   }
   
   .section-10 {
-    display:block;
+    display:flex;
+    justify-content: center;
     margin-top:300px;
-    text-align:center;
-  }
-  
-  .section-10 > a > img {
-    width:60%;
-    height:60%;
   }
   
   .section-11 {
-    display:block;
+    display:flex;
+    justify-content: center;
     margin-top:300px;
     margin-bottom:200px;
-    text-align:center;
-  }
-  
-  .section-11 > a > img {
-    width:60%;
-    height:60%;
   }

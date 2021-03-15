@@ -7,6 +7,32 @@ require_once "head.php";
 <script src="common.js" defer></script>
 <link rel="stylesheet" href="space_design.css">
 
+<!-- 공간 전시 메뉴 -->
+
+<header class="space-deign con-min-width">
+  <div class="con flex flex-jc-c">
+    <div class="menu-box-2 flex flex-jc-c flex-wrap">
+      <div class="title">SPACE DESIGN</div>
+      <ui class="list-item flex flex-jc-c flex-wrap flex-ai-c">
+        <li><a href="#">All</a></li>
+        <li><a href="#">Theme</a></li>
+        <li><a href="#">Zoom in</a></li>
+        <li><a href="#">House</a></li>
+        <li><a href="#">Coordination</a></li>
+        <li><a href="#">Commercial</a></li>
+        <li><a href="#">Office</a></li>
+        <li><a href="#">Architecture</a></li>
+        <li><a href="#">Hospital</a></li>
+        <li><a href="#">Hotel & Resort</a></li>
+        <li><a href="#">Showroom</a></li>
+        <li><a href="#">Cafe & Restaurant</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Etc</a></li>
+      </ui>
+    </div>
+  </div>
+</header>
+
 <div class="main-2">
   <div class="con main-box">
     <h1>ALL</h1>
@@ -15,7 +41,9 @@ require_once "head.php";
       <div class="item-list">
         <div class="content flex flex-jc-c">
           <div class="img-box">
-            <a href="small_home.ssghtml.php"><img src="https://i.postimg.cc/XY1mKhJQ/ed08a707e3134.jpg" alt=""></a>
+            <a href="small_home.ssghtml.php">
+              <img src="https://i.postimg.cc/XY1mKhJQ/ed08a707e3134.jpg" alt="">
+            </a>
           </div>
           <div class="contaner">
             <h3>행복이 시작되는 곳</h3>

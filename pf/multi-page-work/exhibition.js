@@ -1,5 +1,5 @@
 gsap.from(".section-2", {
-  x: -500,
+  x: -100,
   opacity: 0,
   duration: 1,
   scrollTrigger: {
@@ -10,7 +10,7 @@ gsap.from(".section-2", {
 });
 
 gsap.from(".section-3", {
-  x: 500,
+  x: 100,
   opacity: 0,
   duration: 1,
   scrollTrigger: {
@@ -32,7 +32,7 @@ gsap.from(".section-4", {
 });
 
 gsap.from(".section-5", {
-  x: 500,
+  x: 100,
   opacity: 0,
   duration: 1,
   scrollTrigger: {
@@ -43,7 +43,7 @@ gsap.from(".section-5", {
 });
 
 gsap.from(".section-6", {
-  x: -500,
+  x: -100,
   opacity: 0,
   duration: 1,
   scrollTrigger: {
@@ -54,7 +54,7 @@ gsap.from(".section-6", {
 });
 
 gsap.from(".section-7", {
-  x: 500,
+  x: 100,
   opacity: 0,
   duration: 1,
   scrollTrigger: {
@@ -76,7 +76,7 @@ gsap.from(".section-8", {
 });
 
 gsap.from(".section-9", {
-  x: 500,
+  x: 100,
   opacity: 0,
   duration: 1,
   scrollTrigger: {
@@ -87,7 +87,7 @@ gsap.from(".section-9", {
 });
 
 gsap.from(".section-10", {
-  x: -500,
+  x: -100,
   opacity: 0,
   duration: 1,
   scrollTrigger: {
