@@ -1,6 +1,6 @@
 <?php
 $title = "나의 작은 집";
-$pageCode = "smallhome"
+$pageCode = "smallhome";
 require_once "head.php";
 ?>
 
