@@ -4,7 +4,7 @@ require_once "head.php";
 ?>
 
 <link rel="stylesheet" href="css/pf.css">
-<script src="js/about.js" defer></script>
+<script src="js/common.js" defer></script>
 
 <section class="section-title con-min-width">
   <h1 class="con">
