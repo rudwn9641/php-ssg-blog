@@ -1,0 +1,53 @@
+.main-box {
+    height:965px;
+  }
+  
+  .main-box > .shoese {
+    height:100%;
+    position:relative;
+    z-index:-100;
+  }
+  
+  .main-box > .blush {
+    position:absolute;
+    top:40%;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+  }
+  
+  .main-box > .title {
+    position:absolute;
+    top:40%;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    text-align:center;
+    color:#db192c;
+    font-size:4rem;
+    font-weight:bold;
+  }
+  
+  .main-box > .content-1 {
+    position:absolute;
+    top:52%;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    color:white;
+    font-size:28px;
+    text-align:center;
+  }
+  
+  .main-box > .content-2 {
+    position:absolute;
+    transition:transform 1s;
+    transform:rotate(90deg) translateX(-100%);
+    transform-origin:bottom left;
+    bottom:70px;
+    left:calc(50% - 880px);
+    font-size:28px;
+  }

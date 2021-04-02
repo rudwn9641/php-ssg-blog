@@ -7,16 +7,42 @@ $articles = &getArticles();
 <link rel="stylesheet" href="css/index.css">
 <script src="js/index.js" defer></script>
 
-<main class="main-page">
-    <div class="main-box">
-      <img class="shoese" src="https://i.postimg.cc/d3MqStKX/01.jpg" alt="">
-      <img class="blush" src="https://i.postimg.cc/nVWsFp95/Untitled-1-01.png" alt="">
-      <div class="title">RUNNING</div>
-      <div class="content-1">There are better starters than me<br>
-but I’m a strong finisher</div>
-      <div class="content-2">VERSATILITY DESIGNER</div>
+<section class="section-title con-min-width">
+  <h1 class="con">
+    <span>
+      <i class="fas fa-fire"></i>
+    </span>
+    <span>
+      LATEST ARTICLES
+    </span>
+  </h1>
+</section>
+
+<section class="section-latest-articles con-min-width">
+  <div class="con">
+    <div class="article-list-box">
+      <ul>
+        <?php foreach ( $articles as $article ) { ?>
+        <li>
+          <h1 class="article-list-box__title"><a href="<?=getArticleLink($article["id"])?>"><?=$article["title"]?></a></h1>
+          <div class="article-list-box__reg-date"><?=$article["regDate"]?></div>
+          <div class="article-list-box__writer">
+            <span><?=$article["writerName"]?></span>
+            <span><?=$article["writerAvatar"]?></span>
+          </div>
+          <div class="article-list-box__tags">
+            <?=getArticleTagsHtml($article["id"])?>
+          </div>
+          <div class="article-list-box__body">
+            <script type="text/x-template"><?=$article['body']?></script>
+            <div class="toast-ui-viewer"></div>
+          </div>
+        </li>
+        <?php } ?>
+      </ul>
     </div>
-</main>
+  </div>
+</section>
 
 <?php
 require_once "foot.php";
