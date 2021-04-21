@@ -1,0 +1,363 @@
+/* 폰트 */
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-ai-c {
+    align-items: center;
+}
+
+.flex-jc-c {
+    justify-content: center;
+}
+
+.flex-jc-s {
+    justify-content: flex-start;
+}
+
+.flex-jc-e {
+    justify-content: flex-end;
+}
+
+.flex-jc-sb {
+    justify-content: space-between;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 섹션1 시작 */
+
+.section {
+    width: 100%;
+    height: 100%;
+}
+
+.text-box-1>.title-1 {
+    text-align: left;
+    top: 25%;
+    left: 20%;
+    position: absolute;
+    font-size: 100px;
+    z-index: 10;
+    line-height: 100px;
+}
+
+.text-box-1>.title-1>span:nth-child(1) {
+    font-weight: bold;
+    display: block;
+}
+
+.text-box-1>.title-1>span:nth-child(2) {
+    font-weight: lighter;
+}
+
+.content-1 {
+    top: 50%;
+    right: 15%;
+    font-size: 100px;
+    position: absolute;
+    z-index: 10;
+}
+
+.content-1>span:nth-child(1) {
+    line-height: 60px;
+}
+
+.content-1>span {
+    display: block;
+    text-align: left;
+}
+
+.content-1>div {
+    width: 390px;
+    height: 1px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.content-1>.Subheading {
+    font-size: 20px;
+}
+
+.content-1>span:nth-child(2) {
+    font-weight: lighter;
+}
+
+.Profile-img {
+    position: absolute;
+}
+
+.Profile-img>img {
+    margin-top: -55%;
+    margin-left: 40%;
+    margin-right: 50%;
+    left: 0;
+    right: 0;
+}
+
+.con-min-width {
+    min-width: 320px;
+}
+
+.con {
+    max-width: 1000px;
+}
+
+/* 섹션1 끝 */
+
+/* 섹션2 시작 */
+
+.self-introduction {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-text {
+    position: relative;
+}
+
+.content-2 {
+    width: 650px;
+    margin-top: 40px;
+}
+
+.right-text {
+    position: relative;
+    right: 0;
+    margin-left: 300px;
+}
+
+.eucation {
+    margin-bottom: 50px;
+}
+
+.eucation>span {
+    display: block;
+}
+
+.eucation>span:first-child {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.award {
+    margin-bottom: 50px;
+}
+
+.award>span {
+    display: block;
+}
+
+.award>span:first-child {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.skill>span {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.skill>.photoshop>div:nth-child(2),
+.skill>.illustrator>div:nth-child(2),
+.skill>.html-css>div:nth-child(2) {
+    left: 50px;
+    width: 500px;
+    height: 15px;
+    border-width: 2px 4px;
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.skill>.photoshop>div:nth-child(2) {
+    width: 300px;
+    left: 53px;
+}
+
+.skill>.illustrator>div:nth-child(2) {
+    width: 400px;
+    left: 62px;
+}
+
+.skill>.html-css>div:nth-child(2) {
+    width: 250px;
+}
+
+/* 섹션2 끝 */
+
+/* 섹션3 시작 */
+
+.work {
+    height: 70%;
+    position: relative;
+    text-align: center;
+}
+
+.work>.title-2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.work>ul {
+    padding: 60px 0px;
+    position: absolute;
+    flex-direction: column;
+}
+
+.work>ul>li>a {
+    padding: 10px;
+    margin: 15px;
+    display: block;
+    font-size: 50px;
+}
+
+.work>ul>li>div {
+    position: absolute;
+    transform: translate(calc(50% + 25px), calc(-50% + 4.16667px));
+}
+
+.mockup-1 {
+    left: -150%;
+    top: 10%;
+}
+
+.mockup-1>img {
+    width: 600px;
+}
+
+.mockup-2 {
+    right: -30%;
+    top: 50%;
+}
+
+.mockup-2>img {
+    width: 400px;
+}
+
+.mockup-3 {
+    right: -10%;
+    top: 10%;
+}
+
+.mockup-3>img {
+    width: 600px;
+}
+
+.mockup-4 {
+    left: -130%;
+    top: 40%;
+}
+
+.mockup-4>img {
+    width: 500px;
+}
+
+.mockup-5 {
+    left: -150%;
+    top: 15%;
+}
+
+.mockup-5>img {
+    width: 600px;
+}
+
+.mockup-6 {
+    right: -40%;
+    top: 50%;
+    z-index: 2;
+}
+
+.mockup-6>img {
+    width: 450px;
+}
+
+.mockup-7 {
+    right: 0;
+    top: 0;
+}
+
+.mockup-7>img {
+    width: 500px;
+}
+
+.mockup-8 {
+    right: 0;
+    top: 5%;
+}
+
+.mockup-8>img {
+    width: 500px;
+}
+
+.mockup-9 {
+    left: -150%;
+    top: 15%;
+}
+
+.mockup-9>img {
+    width: 600px;
+}
+
+.mockup-10 {
+    right: 0;
+    top: 5%;
+}
+
+.mockup-10>img {
+    width: 500px;
+}
+
+.work>ul>li>div>img {
+    position: absolute;
+    opacity: 0.0;
+}
+
+.work>ul>li:hover>div>img {
+    opacity: 1.0;
+    transition: .5s;
+}
+
+.work>ul>li:hover>a {
+    background-color: black;
+    color: #B5B8BF;
+    transition: .5s;
+    user-select: none;
+}
+
+/* 섹션3 끝 */
+
+/* 슬라이드 숫자 */
+
+.fly {
+    position: fixed;
+    bottom: 50px;
+    left: 100px;
+}
