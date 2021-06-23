@@ -69,7 +69,7 @@ require_once "head.php";
       </div>
   </section>
   
-  <section class="section con-min-width flex flex-ai-c fp-auto-height-responsive" style="background-image: url('https://i.postimg.cc/BQv5XnYc/marjanblan-k-Ux-T8-Wkoe-Y-unsplash-1.jpg');">
+  <section class="section con-min-width flex flex-ai-c fp-auto-height-responsive" style="background-image: url('https://i.postimg.cc/BQv5XnYc/marjanblan-k-Ux-T8-Wkoe-Y-unsplash-1.jpg');">  
     <div class="work flex flex-jc-c">
       <div class="title-2">Work</div>
       <ul class="flex flex-jc-c flex-ai-c">
@@ -110,12 +110,6 @@ require_once "head.php";
           </div>
           <div class="mockup mockup-9">
             <img src="https://i.postimg.cc/BQjT2Jrc/2.jpg" alt="">
-          </div>
-          </li>
-        <li>
-          <a href="#">Packaging design</a>
-            <div class="mockup mockup-10">
-            <img src="https://i.postimg.cc/h43MGCrH/image.jpg" alt="">
           </div>
           </li>
       </ul>
