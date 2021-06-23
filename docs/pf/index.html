@@ -54,23 +54,14 @@
     <aside class="side-bar visible-sm-down" style="background-image:url(https://i.postimg.cc/HnyPcrRZ/image.png);">
         <nav class="menu-box-1">
             <ul>
-                <li>
-                    <a href="#" class="flex flex flex-ai-c">
-                        <span>PROCESS</span>
-                        <div></div>
-                    </a>
+                <li class="flex">
+                    <a href="#">PROCESS<div></div></a>
                 </li>
-                <li>
-                    <a href="#" class="flex flex flex-ai-c">
-                        <span>ABOUT</span>
-                        <div></div>
-                    </a>
+                <li class="flex">
+                    <a href="#">ABOUT<div></div></a>
                 </li>
-                <li>
-                    <a href="#" class="flex flex-ai-c">
-                        <span>PORTFOLIO</span>
-                        <div></div>
-                    </a>
+                <li class="flex">
+                    <a href="#">PORTFOLIO<div></div></a>
                 </li>
             </ul>
         </nav>

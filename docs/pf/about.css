@@ -24,6 +24,10 @@ a {
     align-items: center;
 }
 
+.flex-ac {
+    align-content: space-between;
+}
+
 .flex-jc-c {
     justify-content: center;
 }
@@ -216,23 +220,29 @@ a {
 /* 섹션3 시작 */
 
 .work {
-    height: 70%;
+    height: 80%;
     position: relative;
     text-align: center;
 }
 
-.work>.title-2 {
+.title-2 {
+    position: absolute;
     font-size: 20px;
-    margin-bottom: 10px;
+    top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.work>ul {
+.work ul {
     padding: 60px 0px;
     position: absolute;
     flex-direction: column;
+    bottom: 50px;
 }
 
-.work>ul>li>a {
+.work ul li a {
     padding: 10px;
     margin: 15px;
     display: block;
@@ -245,7 +255,7 @@ a {
 }
 
 .mockup-1 {
-    left: -150%;
+    left: -200%;
     top: 10%;
 }
 
@@ -263,7 +273,7 @@ a {
 }
 
 .mockup-3 {
-    right: -10%;
+    right: 0;
     top: 10%;
 }
 
@@ -272,7 +282,7 @@ a {
 }
 
 .mockup-4 {
-    left: -130%;
+    left: -180%;
     top: 40%;
 }
 
@@ -281,7 +291,7 @@ a {
 }
 
 .mockup-5 {
-    left: -150%;
+    left: -200%;
     top: 15%;
 }
 
@@ -290,7 +300,7 @@ a {
 }
 
 .mockup-6 {
-    right: -40%;
+    right: -50%;
     top: 50%;
     z-index: 2;
 }
@@ -300,7 +310,7 @@ a {
 }
 
 .mockup-7 {
-    right: 0;
+    right: -20%;
     top: 0;
 }
 
@@ -309,7 +319,7 @@ a {
 }
 
 .mockup-8 {
-    right: 0;
+    right: -30%;
     top: 5%;
 }
 
@@ -318,7 +328,7 @@ a {
 }
 
 .mockup-9 {
-    left: -150%;
+    left: -200%;
     top: 15%;
 }
 
