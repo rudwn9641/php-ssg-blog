@@ -1,0 +1,257 @@
+/* 폰트 */
+html {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+body,
+ul,
+li,
+h1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* total width */
+body::-webkit-scrollbar {
+    background-color: #fff;
+    width: 16px;
+}
+
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #fff;
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-ai-c {
+    align-items: center;
+}
+
+.flex-jc-c {
+    justify-content: center;
+}
+
+.flex-jc-s {
+    justify-content: flex-start;
+}
+
+.flex-jc-e {
+    justify-content: flex-end;
+}
+
+.flex-jc-sb {
+    justify-content: space-between;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h3 {
+    padding-top: 50px;
+    font-weight: bolder;
+}
+
+.page-1 {
+    height: 200vh;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.page-2 {
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.page-3 {
+    height: 150vh;
+}
+
+.page-4 {
+    height: 100vh;
+}
+
+.page-5 {
+    height: 100vh;
+}
+
+/* 타이틀 시작 */
+
+.section {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.title {
+    position: absolute;
+    top: 18%;
+    right: 25%;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+.title-1,
+.title-3 {
+    color: #dfdfdf;
+    background-color: black;
+    padding: 0 50px;
+    line-height: 90px;
+}
+
+.page .section .title-2 {
+    top: 22%;
+    right: 29%;
+}
+
+.page .section-2 .title-2 {
+    right: 16%;
+}
+
+.page>.title-3 {
+    position: absolute;
+    top: 45%;
+    right: 25%;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+/* 타이틀 끝 */
+
+/* 목업 이미지 */
+
+.mockup > div {
+    overflow: hidden;
+}
+
+.mockup-1 > div {
+    border: 1px solid red;
+    width: 50%;
+    margin-top: 130px;
+}
+
+.mockup > div > img {
+    width: 100%;
+}
+
+.mockup-2 > div {
+    width: 63%;
+    margin-left: 200px;
+    margin-top: 17%;
+}
+
+.mockup-3 {
+    position: absolute;
+}
+
+.mockup-3>div {
+    overflow: hidden;
+    width: 63%;
+    margin-left: 200px;
+    margin-top: 17%;
+}
+
+.mockup-4 {
+    position: absolute;
+}
+
+.mockup-4>div {
+    overflow: hidden;
+    width: 63%;
+    margin-left: 200px;
+    margin-top: 17%;
+}
+
+/* 목업 이미지 끝 */
+
+/* 메뉴 시작 */
+
+.page-indicator {
+    position: fixed;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    padding: 10px;
+    transition: transform 0.3s;
+    text-align: right;
+}
+
+.page-indicator>ul>li>a {
+    line-height: 50px;
+}
+
+.page-indicator>ul>li.active {
+    font-weight: bold;
+}
+
+/* 메뉴 끝 */
+
+/* 슬라이드 숫자 */
+
+.view {
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    right: 40%;
+}
+
+.view-box-2 {
+    right: 27%;
+}
+
+.view>span {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.line {
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 65%;
+    right: -80%;
+}
+
+.view>span>span {
+    display: block;
+    transition: transform 0.3s;
+    user-select: none;
+}
+
+.view>span>span:last-child {
+    position: absolute;
+}
+
+.view>span:hover>span {
+    transform: translateY(-100%);
+}
