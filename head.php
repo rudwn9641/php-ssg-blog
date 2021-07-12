@@ -114,7 +114,7 @@ if ( !isset($pageThumbUrl) ) {
               </a>
             </li>
             <li>
-              <a href="pf.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
+              <a href="pf/shose-main.php" class="flex flex-jc-c flex-ai-c height-100p">
                 <span><i class="fas fa-list-alt"></i></span>
                 <span>PORTFOLIO</span>
               </a>

@@ -1,24 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+<?php
+require_once "shoes-head.php";
+?>
     <link rel="stylesheet" href="shoes-pf.css">
+    <script src="shoes-pf.js"></script>
 
-    <!-- 구글 폰트 -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+    <header class="top-bar con-min-width flex flex-jc-sb">
+        <a href="./shoes-main.html" class="logo px-10 flex flex-ai-c">
+            <span>LOGO</span>
+        </a>
+        <div class="btn-to-top px-10 flex flex-ai-c">
+            <div>
+                <div>
+                    <span></span>
+                </div>
+                <div>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <!-- 폰트어썸 불러오기 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
-</head>
-
-<body>
+    <!-- 사이드 바 시작 -->
+    <aside class="side-bar visible-sm-down" style="background-image:url(https://i.postimg.cc/HnyPcrRZ/image.png);">
+        <nav class="menu-box-1">
+            <ul>
+                <li class="flex">
+                    <a href="#">PROCESS<div></div></a>
+                </li>
+                <li class="flex">
+                    <a href="./shoes-about.html">ABOUT<div></div></a>
+                </li>
+                <li class="flex">
+                    <a href="./shoes-pf.html">PORTFOLIO<div></div></a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <!-- 사이드 바 끝 -->
 
     <div class="pages"
         style="background-image: url('https://i.postimg.cc/BQv5XnYc/marjanblan-k-Ux-T8-Wkoe-Y-unsplash-1.jpg');">
@@ -118,12 +136,6 @@
         </ul>
     </div>
 
-
-
-    <!-- 제이쿼리 불러오기 -->
-    <script src="shoes-pf.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
-</body>
-
-</html>
+<?php
+require_once "shoes-foot.php";
+?>
