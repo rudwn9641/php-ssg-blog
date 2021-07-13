@@ -169,7 +169,7 @@ if ( !isset($pageThumbUrl) ) {
             </a>
           </li>
           <li>
-            <a href="#" class="block">
+            <a href="pf/shoes-main.php" class="block">
               <span><i class="fas fa-list-alt"></i></span>
               <span>PORTFOLIO</span>
             </a>
