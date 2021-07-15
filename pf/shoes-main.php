@@ -2,42 +2,8 @@
 require_once "shoes-head.php";
 ?>
 
-  <link rel="stylesheet" href="shoes-head.css">
-  <script src="shoes-head.js" defer></script>
-
-  <header class="top-bar con-min-width flex flex-jc-sb">
-        <a href="./shoes-main.html" class="logo px-10 flex flex-ai-c">
-            <span>LOGO</span>
-        </a>
-        <div class="btn-to-top px-10 flex flex-ai-c">
-            <div>
-                <div>
-                    <span></span>
-                </div>
-                <div>
-                    <span></span>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- 사이드 바 시작 -->
-    <aside class="side-bar visible-sm-down" style="background-image:url(https://i.postimg.cc/HnyPcrRZ/image.png);">
-        <nav class="menu-box-1">
-            <ul>
-                <li class="flex">
-                    <a href="#">PROCESS<div></div></a>
-                </li>
-                <li class="flex">
-                    <a href="./shoes-about.html">ABOUT<div></div></a>
-                </li>
-                <li class="flex">
-                    <a href="./shoes-pf.html">PORTFOLIO<div></div></a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-    <!-- 사이드 바 끝 -->
+  <link rel="stylesheet" href="shoes-main.css">
+  <script src="shoes-main.js" defer></script>
 
   <main class="main-page">
     <div class="main-box">

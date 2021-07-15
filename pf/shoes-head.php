@@ -1,7 +1,3 @@
-<?php
-require_once "shoes-head.php";
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -71,7 +67,3 @@ require_once "shoes-head.php";
     <!-- 사이드 바 끝 -->
 
     <script src="shoes-head.js" defer></script>
-
-<?php
-require_once "shoes-foot.php";
-?>

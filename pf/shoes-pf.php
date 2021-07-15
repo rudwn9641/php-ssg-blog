@@ -4,40 +4,6 @@ require_once "shoes-head.php";
     <link rel="stylesheet" href="shoes-pf.css">
     <script src="shoes-pf.js"></script>
 
-    <header class="top-bar con-min-width flex flex-jc-sb">
-        <a href="./shoes-main.html" class="logo px-10 flex flex-ai-c">
-            <span>LOGO</span>
-        </a>
-        <div class="btn-to-top px-10 flex flex-ai-c">
-            <div>
-                <div>
-                    <span></span>
-                </div>
-                <div>
-                    <span></span>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- 사이드 바 시작 -->
-    <aside class="side-bar visible-sm-down" style="background-image:url(https://i.postimg.cc/HnyPcrRZ/image.png);">
-        <nav class="menu-box-1">
-            <ul>
-                <li class="flex">
-                    <a href="#">PROCESS<div></div></a>
-                </li>
-                <li class="flex">
-                    <a href="./shoes-about.html">ABOUT<div></div></a>
-                </li>
-                <li class="flex">
-                    <a href="./shoes-pf.html">PORTFOLIO<div></div></a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-    <!-- 사이드 바 끝 -->
-
     <div class="pages"
         style="background-image: url('https://i.postimg.cc/BQv5XnYc/marjanblan-k-Ux-T8-Wkoe-Y-unsplash-1.jpg');">
         <div class="page page-1" id="page-1">
