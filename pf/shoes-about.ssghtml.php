@@ -1,5 +1,5 @@
 <?php
-require_once "shoes-head.htmlssg.php";
+require_once "shoes-head.ssghtml.php";
 ?>
 
   <link rel="stylesheet" href="shoes-about.css">
@@ -127,5 +127,5 @@ require_once "shoes-head.htmlssg.php";
   </div>
 
 <?php
-require_once "shoes-foot.htmlssg.php";
+require_once "shoes-foot.ssghtml.php";
 ?>

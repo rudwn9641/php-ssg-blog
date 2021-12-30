@@ -1,5 +1,5 @@
 <?php
-require_once "shoes-head.htmlssg.php";
+require_once "shoes-head.ssghtml.php";
 ?>
 
 <!DOCTYPE html>
@@ -27,5 +27,5 @@ require_once "shoes-head.htmlssg.php";
 </html>
 
 <?php
-require_once "shoes-foot.htmlssg.php";
+require_once "shoes-foot.ssghtml.php";
 ?>

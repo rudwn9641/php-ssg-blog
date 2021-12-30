@@ -57,10 +57,10 @@
                     <a href="#">PROCESS<div></div></a>
                 </li>
                 <li class="flex">
-                    <a href="./shoes-about.htmlssg.php">ABOUT<div></div></a>
+                    <a href="./shoes-about.ssghtml.php">ABOUT<div></div></a>
                 </li>
                 <li class="flex">
-                    <a href="./shoes-pf.htmlssg.php">PORTFOLIO<div></div></a>
+                    <a href="./shoes-pf.ssghtml.php">PORTFOLIO<div></div></a>
                 </li>
             </ul>
         </nav>
