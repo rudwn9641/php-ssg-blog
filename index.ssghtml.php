@@ -1,6 +1,6 @@
 <?php
-require_once "data.php";
-require_once "head.php";
+require_once "data.htmlssg.php";
+require_once "head.htmlssg.php";
 
 $articles = &getArticles();
 ?>
@@ -45,5 +45,5 @@ $articles = &getArticles();
 </section>
 
 <?php
-require_once "foot.php";
+require_once "foot.htmlssg.php";
 ?>

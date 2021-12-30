@@ -1,7 +1,7 @@
 <?php
 $title = "전시회";
 $pageCode = "exhibition";
-require_once "head.php";
+require_once "head.htmlssg.php";
 ?>
 
 <script src="exhibition.js" defer></script>
@@ -68,5 +68,5 @@ require_once "head.php";
 </div>
 
 <?php
-require_once "foot.php";
+require_once "foot.htmlssg.php";
 ?>

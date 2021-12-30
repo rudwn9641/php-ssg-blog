@@ -3,7 +3,7 @@ if ( defined('STDIN') ) {
     $_GET['tag'] = $argv[1];
 }
 
-require_once "data.php";
+require_once "data.htmlssg.php";
 
 $tagInfo = &getForPrintTagInfo($_GET['tag']);
 $pageTitle = $tagInfo['pageTitle'];
@@ -11,7 +11,7 @@ $pageThumbUrl = $tagInfo['pageThumbUrl'];
 $pageDescription = $tagInfo['pageDescription'];
 $pageKeywordsStr = $tagInfo['pageKeywordsStr'];
 
-require_once "head.php";
+require_once "head.htmlssg.php";
 
 $articles = &getArticlesByTag($_GET['tag']);
 ?>
@@ -50,5 +50,5 @@ $articles = &getArticlesByTag($_GET['tag']);
 </section>
 
 <?php
-require_once "foot.php";
+require_once "foot.htmlssg.php";
 ?>

@@ -3,7 +3,7 @@ if ( defined('STDIN') ) {
     $_GET['id'] = $argv[1];
 }
 
-require_once "data.php";
+require_once "data.htmlssg.php";
 
 $articleId = $_GET['id'];
 $selectedArticle = &getForPrintArticleById($articleId);
@@ -12,7 +12,7 @@ $pageThumbUrl = $selectedArticle['pageThumbUrl'];
 $pageDescription = $selectedArticle['pageDescription'];
 $pageKeywordsStr = $selectedArticle['pageKeywordsStr'];
 
-require_once "head.php";
+require_once "head.htmlssg.php";
 ?>
 
 <section class="section-title con-min-width">
@@ -68,5 +68,5 @@ require_once "head.php";
 </section>
 
 <?php
-require_once "foot.php";
+require_once "foot.htmlssg.php";
 ?>

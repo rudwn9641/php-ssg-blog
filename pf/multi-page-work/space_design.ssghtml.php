@@ -1,7 +1,7 @@
 <?php
 $title = "공간 디자인";
 $pageCode = "space_design";
-require_once "head.php";
+require_once "head.htmlssg.php";
 ?>
 
 <script src="common.js" defer></script>
@@ -178,5 +178,5 @@ require_once "head.php";
 </div>
 
 <?php
-require_once "foot.php";
+require_once "foot.htmlssg.php";
 ?>

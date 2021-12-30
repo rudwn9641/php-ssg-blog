@@ -114,7 +114,7 @@ if ( !isset($pageThumbUrl) ) {
               </a>
             </li>
             <li>
-              <a href="pf/shoes-main.html" class="flex flex-jc-c flex-ai-c height-100p">
+              <a href="pf/shoes-main.htmlssg.php" class="flex flex-jc-c flex-ai-c height-100p">
                 <span><i class="fas fa-list-alt"></i></span>
                 <span>PORTFOLIO</span>
               </a>
@@ -169,7 +169,7 @@ if ( !isset($pageThumbUrl) ) {
             </a>
           </li>
           <li>
-            <a href="pf/shoes-main.html" class="block">
+            <a href="pf/shoes-main.htmlssg.php" class="block">
               <span><i class="fas fa-list-alt"></i></span>
               <span>PORTFOLIO</span>
             </a>

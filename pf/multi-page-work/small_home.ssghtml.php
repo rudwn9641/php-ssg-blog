@@ -1,7 +1,7 @@
 <?php
 $title = "나의 작은 집";
 $pageCode = "smallhome";
-require_once "head.php";
+require_once "head.htmlssg.php";
 ?>
 
 <script src="common.js" defer></script>
@@ -109,5 +109,5 @@ require_once "head.php";
 </header>
 
 <?php
-require_once "foot.php";
+require_once "foot.htmlssg.php";
 ?>

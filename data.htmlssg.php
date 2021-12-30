@@ -1,6 +1,6 @@
 <?php
-require_once "util.php";
-require_once "app.php";
+require_once "util.htmlssg.php";
+require_once "app.htmlssg.php";
 
 $siteTitle = "디자이너 구미베어";
 $siteDescription = "디자이너 구미베어 기술 블로그 입니다.";

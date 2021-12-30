@@ -1,3 +1,7 @@
+<?php
+require_once "shoes-head.htmlssg.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,3 +25,7 @@
   </main>
 </body>
 </html>
+
+<?php
+require_once "shoes-foot.htmlssg.php";
+?>

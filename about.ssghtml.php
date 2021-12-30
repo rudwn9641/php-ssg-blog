@@ -1,10 +1,10 @@
 <?php
-require_once "data.php";
+require_once "data.htmlssg.php";
 
 $pageTitle = "{$siteTitle} - 주인장 소개";
 $pageDescription = "주인장에 대한 소개페이지 입니다.";
 
-require_once "head.php";
+require_once "head.htmlssg.php";
 ?>
 
 <link rel="stylesheet" href="css/about.css">
@@ -22,5 +22,5 @@ require_once "head.php";
 </section>
 
 <?php
-require_once "foot.php";
+require_once "foot.htmlssg.php";
 ?>
