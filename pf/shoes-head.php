@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>임경주 포트폴리오</title>
+    <title>임경주 포트폴리오<?=$pageTitle?></title>
 
     <!-- 반응형 필수 -->
     <meta name="viewport" content="width=device-width, user-scalable=no" />
@@ -28,6 +28,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
 
+    <script src="shoes-head.js" defer></script>
     <link rel="stylesheet" href="shoes-head.css">
 </head>
 
@@ -65,5 +66,3 @@
         </nav>
     </aside>
     <!-- 사이드 바 끝 -->
-
-    <script src="shoes-head.js" defer></script>
