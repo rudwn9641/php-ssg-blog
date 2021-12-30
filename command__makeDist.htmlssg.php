@@ -1,5 +1,5 @@
 <?php
-require_once "data.php";
+require_once "data.htmlssg.php";
 
 shell_exec("chcp 65001");
 
