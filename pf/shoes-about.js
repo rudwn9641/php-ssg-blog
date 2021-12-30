@@ -7,5 +7,4 @@ function Fullpage__init() {
     },
   });
 }
-
 Fullpage__init();
