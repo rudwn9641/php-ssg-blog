@@ -62,3 +62,18 @@ $(window).resize(Page__updateOffsetTop);
 
 // 스크롤이 될 때 마다, 인디케이터의 상태를 갱신
 $(window).scroll(Page__updateIndicatorActive);
+
+// 스와이퍼 슬라이드
+function MySliderBox1__init() {
+  var swiper = new Swiper('.my-slider-box-1 .swiper-container', {
+    slidesPerView:3,
+    spaceBetween:30,
+    loop: false,
+    navigation: {
+      nextEl: '.my-slider-box-1 .my-slider-box-1__btn-right',
+      prevEl: '.my-slider-box-1 .my-slider-box-1__btn-left',
+    },
+  });
+}
+
+MySliderBox1__init();

@@ -70,32 +70,53 @@ body::-webkit-scrollbar-button {
     margin-right: auto;
 }
 
-h1, h3 {
+h1 {
     display: block;
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    position: fixed;
+    z-index: 10;
 }
 
-.page-1 {
-    height: 200vh;
+/* 좌우 버튼 */
+.my-slider-box-1__nav {
+    display: flex;
+    justify-content: center;
+}
+
+.my-slider-box-1 .my-slider-box-1__btn-left,
+.my-slider-box-1 .my-slider-box-1__btn-right {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+    right: calc(100% + 50px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.my-slider-box-1 .my-slider-box-1__btn-right {
+    right: auto;
+    left: calc(100% + 50px);
+}
+
+.my-slider-box-1 .my-slider-box-1__btn-left.swiper-button-disabled,
+.my-slider-box-1 .my-slider-box-1__btn-right.swiper-button-disabled {
+    opacity: 0.3;
+}
+
+/* 좌우 버튼 끝 */
+
+.page {
+    height:150vh;
     box-sizing: border-box;
-    border: 1px solid red;
-}
-
-.page-2 {
-    height: 100vh;
-    border: 1px solid red;
-}
-
-.page-3 {
-    height: 150vh;
-}
-
-.page-4 {
-    height: 100vh;
-}
-
-.page-5 {
-    height: 100vh;
 }
 
 /* 타이틀 시작 */
@@ -111,7 +132,7 @@ h1, h3 {
 
 .title {
     position: absolute;
-    top: 18%;
+    top: 25%;
     right: 25%;
     font-size: 100px;
     font-weight: normal;
@@ -126,7 +147,7 @@ h1, h3 {
 }
 
 .page .section .title-2 {
-    top: 22%;
+    top: 30%;
     right: 29%;
 }
 
@@ -151,9 +172,8 @@ h1, h3 {
 }
 
 .mockup-1 > div {
-    border: 1px solid red;
     width: 50%;
-    margin-top: 130px;
+    padding-top: 200px;
 }
 
 .mockup > div > img {
@@ -217,7 +237,7 @@ h1, h3 {
 .view {
     display: inline-block;
     position: absolute;
-    top: 30%;
+    top: 42%;
     right: 40%;
 }
 

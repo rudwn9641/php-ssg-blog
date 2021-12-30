@@ -2,8 +2,11 @@
 require_once "shoes-head.ssghtml.php";
 ?>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
   <link rel="stylesheet" href="shoes-about.css">
-  <script src="shoes-about.css" defer></script>
+  <script src="shoes-about.js" defer></script>
 
   <div id="fullpage">
     <section class="section con-min-width fp-auto-height-responsive"
@@ -32,11 +35,9 @@ require_once "shoes-head.ssghtml.php";
       style="background-image: url('https://i.postimg.cc/BQv5XnYc/marjanblan-k-Ux-T8-Wkoe-Y-unsplash-1.jpg');">
       <div class="self-introduction flex flex-ai-c">
         <div class="left-text">
-          <img src="https://i.postimg.cc/W4fQffrp/1-1.png" alt="">
+          <img src="img/about_section2title.png" alt="">
           <div class="content-2">
-            <span>신발끈을 묶는 것은 해야 할 일, 묶을 수 있다는 건 혼자서도 할 줄 알게 되었다는 것입니다. 디자이너가 되기 위한 과정은 힘들고 가야 할 길은 좁고 협착하지만 반드시 스스로 가야 할
-              길이며 편한 길로만 간다면 성장 할 수 없습니다. 스스로에겐 엄격하게, 한가지의 아이디어로 만족하는게 아니라 다양한 아이디어로 접근하며 다양한 사람들에게 인정받는 디자인을
-              만들겠습니다.</span>
+            <span>디자이너가 되기 위한 과정들은 힘들고 가야 할 길은 좁고 협착하지만 편한 길로만 간다면 성장할 수 없습니다. 그 과정과 결과물은 신발(작품)을 보면 알 수 있죠. 저의 작품을 보고 함께 뛰고 성장하고 싶은 디자이너가 되고 싶습니다. 저는 언제든 새 신발을 준비하고 함께 뛸 준비가 되어 있으니까요. </span>
           </div>
         </div>
         <div class="right-text">
@@ -46,8 +47,8 @@ require_once "shoes-head.ssghtml.php";
               <span>원광정보예술고등학교 미술과 | 2011~2014</span>
               <span>전주대학교 시각디자인과 | 2014~2018</span>
             </div>
-            <div class="award">
-              <span>Award</span>
+            <div class="projects">
+              <span>Projects</span>
               <span>시각디자인 졸업전시회 EYE SHOP PING | 2017</span>
               <span>사진 전시회 열세번째, 감각 | 2017</span>
             </div>
